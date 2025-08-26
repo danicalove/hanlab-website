@@ -1,4 +1,4 @@
-baseURL = 'https://hanlab-website.vercel.app/' 
+baseURL = '/' 
 languageCode = 'en-us'
 title = "Han Lab-NJU IMB"
 theme = "cleanwhite"
