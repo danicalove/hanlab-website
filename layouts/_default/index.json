@@ -1,7 +1,6 @@
-{{ $searchData := slice }}
-
-{{ range .Site.RegularPages }}
-  {{ $searchData = $searchData | append (dict
+{{- $searchData := slice -}}
+{{- range .Site.RegularPages -}}
+  {{- $searchData = $searchData | append (dict
     "title" .Title
     "url" .Permalink
     "content" (.Content | plainify | truncate 400)
@@ -10,7 +9,6 @@
     "categories" .Params.categories
     "tags" .Params.tags
     "type" .Type
-  ) }}
-{{ end }}
-
-{{ $searchData | jsonify }}
+  ) -}}
+{{- end -}}
+{{- $searchData | jsonify -}}
