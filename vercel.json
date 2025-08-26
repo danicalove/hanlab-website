@@ -4,7 +4,6 @@
       "HUGO_VERSION": "0.129.0"
     }
   },
-  "functions": {},
   "headers": [
     {
       "source": "/(.*).json",
