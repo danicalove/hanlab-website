@@ -1,0 +1,21 @@
+[build.environment]
+  HUGO_VERSION = "0.129.0"
+
+[build]
+  publish = "public"
+  command = "hugo --gc --minify"
+
+[[headers]]
+  for = "*.json"
+  [headers.values]
+    Content-Type = "application/json; charset=utf-8"
+
+[[headers]]
+  for = "*.js"
+  [headers.values]
+    Content-Type = "text/javascript; charset=utf-8"
+
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Content-Type = "text/css; charset=utf-8"

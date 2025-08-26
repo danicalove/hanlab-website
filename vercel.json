@@ -1,0 +1,19 @@
+{
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.129.0"
+    }
+  },
+  "functions": {},
+  "headers": [
+    {
+      "source": "/(.*).json",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/json; charset=utf-8"
+        }
+      ]
+    }
+  ]
+}
