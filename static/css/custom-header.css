@@ -1,0 +1,352 @@
+/* 缩小header高度 */
+.intro-header .site-heading,
+.intro-header .post-heading,
+.intro-header .page-heading {
+    padding: 50px 0 30px;  /* 原本 85px 0 55px */
+}
+
+.intro-header .site-heading {
+    padding: 60px 0 40px;  /* 原本 95px 0 70px */
+}
+
+@media only screen and (min-width:768px) {
+    .intro-header .site-heading,
+    .intro-header .post-heading,
+    .intro-header .page-heading {
+        padding: 80px 0;  /* 原本 150px 0 */
+    }
+    
+    .intro-header .site-heading {
+        padding: 80px 0;  /* 原本 150px 0 */
+    }
+}
+
+/* 确保大标题在一行显示 */
+.intro-header .site-heading h1,
+.intro-header .page-heading h1 {
+    white-space: nowrap;  /* 不换行 */
+    overflow: hidden;     /* 隐藏溢出 */
+    text-overflow: ellipsis;  /* 溢出显示省略号 */
+    font-size: 45px;      /* 缩小字体 */
+}
+
+@media only screen and (min-width:768px) {
+    .intro-header .site-heading h1,
+    .intro-header .page-heading h1 {
+        font-size: 65px;  /* 桌面端稍大但仍比原来小 */
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .intro-header .site-heading h1,
+    .intro-header .page-heading h1 {
+        font-size: 35px;  /* 小屏幕更小字体 */
+    }
+}
+
+/* 主页内容样式 */
+.home-content {
+    margin: 40px 0;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.home-content h2 {
+    color: #337ab7;
+    margin-bottom: 20px;
+    font-size: 28px;
+    text-align: left;
+}
+
+/* 推文列表左对齐 */
+.post-container {
+    text-align: left;
+}
+
+.post-preview {
+    text-align: left;
+}
+
+.post-title,
+.post-subtitle,
+.post-content-preview,
+.post-meta {
+    text-align: left;
+}
+
+/* 团队页面标题样式 */
+.post-container h2 {
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.post-container h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(45deg, #337ab7, #5bc0de);
+    border-radius: 2px;
+}
+
+/* 团队成员容器 */
+.team-members {
+    display: grid;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.team-members.students,
+.team-members.assistants,
+.team-members.interns {
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.team-members.manager {
+    grid-template-columns: 1fr;
+    max-width: 800px;
+}
+
+/* 团队成员卡片 */
+.team-member {
+    display: flex;
+    padding: 30px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    border: 1px solid rgba(51, 122, 183, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.team-member::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(45deg, #337ab7, #5bc0de);
+}
+
+.team-member:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    border-color: rgba(51, 122, 183, 0.3);
+}
+
+/* PI特殊样式 */
+.team-member.pi {
+    background: linear-gradient(135deg, #f8fbff 0%, #ebf4ff 100%);
+    border: 2px solid rgba(51, 122, 183, 0.2);
+    margin-bottom: 50px;
+}
+
+.team-member.pi::before {
+    height: 6px;
+    background: linear-gradient(45deg, #337ab7, #2980b9);
+}
+
+/* 实验室管家特殊样式 */
+.team-members.manager .team-member {
+    background: linear-gradient(135deg, #fff8f0 0%, #ffeee0 100%);
+    border: 2px solid rgba(255, 152, 0, 0.2);
+}
+
+.team-members.manager .team-member::before {
+    background: linear-gradient(45deg, #ff9800, #ff7043);
+}
+
+.team-members.manager .member-title {
+    background: linear-gradient(45deg, #ff9800, #ff7043);
+}
+
+/* 研究助理特殊样式 */
+.team-members.assistants .team-member {
+    background: linear-gradient(135deg, #f0fff4 0%, #e8f5e8 100%);
+    border: 1px solid rgba(76, 175, 80, 0.2);
+}
+
+.team-members.assistants .team-member::before {
+    background: linear-gradient(45deg, #4caf50, #66bb6a);
+}
+
+.team-members.assistants .member-title {
+    background: linear-gradient(45deg, #4caf50, #66bb6a);
+}
+
+/* 实习生特殊样式 */
+.team-members.interns .team-member {
+    background: linear-gradient(135deg, #fef7ff 0%, #f3e5f5 100%);
+    border: 1px solid rgba(156, 39, 176, 0.2);
+}
+
+.team-members.interns .team-member::before {
+    background: linear-gradient(45deg, #9c27b0, #ba68c8);
+}
+
+.team-members.interns .member-title {
+    background: linear-gradient(45deg, #9c27b0, #ba68c8);
+}
+
+/* 头像样式 */
+.member-photo {
+    flex-shrink: 0;
+    margin-right: 30px;
+    position: relative;
+}
+
+.member-avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #fff;
+    box-shadow: 0 8px 20px rgba(51, 122, 183, 0.3);
+    transition: all 0.3s ease;
+}
+
+.team-member:hover .member-avatar {
+    transform: scale(1.05);
+    box-shadow: 0 12px 25px rgba(51, 122, 183, 0.4);
+}
+
+/* PI头像特殊效果 */
+.team-member.pi .member-avatar {
+    width: 160px;
+    height: 160px;
+    border: 5px solid #fff;
+    box-shadow: 0 10px 25px rgba(51, 122, 183, 0.4);
+}
+
+/* 成员信息 */
+.member-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.member-info h3,
+.member-info h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    background: linear-gradient(45deg, #337ab7, #2980b9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+}
+
+.member-info h3 {
+    font-size: 26px;
+    margin-bottom: 12px;
+}
+
+.member-info h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* 职位标题 */
+.member-title {
+    display: inline-block;
+    background: linear-gradient(45deg, #337ab7, #5bc0de);
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* 描述文字 */
+.member-description {
+    margin-bottom: 15px;
+    line-height: 1.7;
+    color: #5a6c7d;
+    font-size: 15px;
+}
+
+/* 联系信息 */
+.member-contact {
+    background: rgba(51, 122, 183, 0.05);
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #5a6c7d;
+    border-left: 4px solid #337ab7;
+}
+
+/* 招聘部分样式 */
+.post-container hr {
+    margin: 60px 0 40px;
+    border: none;
+    height: 2px;
+    background: linear-gradient(45deg, #337ab7, #5bc0de);
+    border-radius: 1px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .team-members.students {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .team-member {
+        flex-direction: column;
+        text-align: center;
+        padding: 25px 20px;
+    }
+    
+    .member-photo {
+        margin-right: 0;
+        margin-bottom: 20px;
+        align-self: center;
+    }
+    
+    .member-avatar {
+        width: 120px;
+        height: 120px;
+    }
+    
+    .team-member.pi .member-avatar {
+        width: 140px;
+        height: 140px;
+    }
+    
+    .member-info h3 {
+        font-size: 22px;
+    }
+    
+    .member-info h4 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .team-member {
+        margin: 0 -10px 20px;
+        border-radius: 12px;
+    }
+    
+    .member-avatar {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .team-member.pi .member-avatar {
+        width: 120px;
+        height: 120px;
+    }
+}
