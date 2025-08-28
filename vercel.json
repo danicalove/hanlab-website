@@ -1,11 +1,13 @@
 {
+  "framework": "hugo",
   "build": {
     "env": {
-      "HUGO_VERSION": "0.129.0"
+      "HUGO_VERSION": "0.129.0",
+      "NODE_VERSION": "18"
     }
   },
-  "buildCommand": "hugo --minify --environment production",
-  "outputDirectory": "./public",
+  "buildCommand": "hugo --gc --minify --baseURL https://hangenome.com/",
+  "outputDirectory": "public",
   "headers": [
     {
       "source": "/(.*).json",
