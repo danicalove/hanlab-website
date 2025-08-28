@@ -1,4 +1,5 @@
 baseURL = 'https://hangenome.com/'
+# Force Vercel redeploy with correct configuration
 languageCode = 'en-us'
 title = "Han Lab-NJU IMB"
 theme = "cleanwhite"
