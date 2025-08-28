@@ -1,6 +1,6 @@
 baseURL = 'https://hangenome.com/' 
 languageCode = 'en-us'
-title = "Han Lab-NJU IMB test"
+title = "Han Lab-NJU IMB"
 theme = "cleanwhite"
 preserveTaxonomyNames = true
 hasCJKLanguage = true
