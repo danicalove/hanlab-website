@@ -4,6 +4,8 @@
       "HUGO_VERSION": "0.129.0"
     }
   },
+  "buildCommand": "hugo --minify --environment production",
+  "outputDirectory": "./public",
   "headers": [
     {
       "source": "/(.*).json",
