@@ -1,4 +1,4 @@
-baseURL = '/' 
+baseURL = 'https://hangenome.com/' 
 languageCode = 'en-us'
 title = "Han Lab-NJU IMB"
 theme = "cleanwhite"
