@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>M6A on Han Lab-NJU IMB</title>
-    <link>http://localhost:36371/tags/m6a/</link>
+    <link>http://localhost:39423/tags/m6a/</link>
     <description>Recent content in M6A on Han Lab-NJU IMB</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 22 Aug 2025 10:30:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:36371/tags/m6a/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:39423/tags/m6a/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>STAG2与m6A修饰：染色质调控的新纪元</title>
-      <link>http://localhost:36371/posts/stag2-m6a-research-review/</link>
+      <link>http://localhost:39423/posts/stag2-m6a-research-review/</link>
       <pubDate>Fri, 22 Aug 2025 10:30:00 +0800</pubDate>
-      <guid>http://localhost:36371/posts/stag2-m6a-research-review/</guid>
+      <guid>http://localhost:39423/posts/stag2-m6a-research-review/</guid>
       <description>近年来，染色质组织和表观遗传修饰在基因调控中的作用日益受到关注。最新研究表明，cohesin复合体亚基STAG2与RNA N6-甲基腺苷（m6</description>
     </item>
   </channel>
