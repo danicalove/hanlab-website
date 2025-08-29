@@ -15,9 +15,7 @@ layout = "page"
     <h3>Dr. Ruiqi Han (韩瑞琦)</h3>
     <p class="member-title">Principal Investigator</p>
     <p class="member-description">
-      Dr. Han received his Ph.D. in Biochemistry and Molecular Biology from Nanjing University. 
-      His research focuses on 3D genome organization and its role in gene regulation and cell function. 
-      He has published numerous papers in top journals including Nature, Cell, and Science.
+      Professor Ruiqi Han obtained her Bachelor's degree in Life Sciences from Radboud University Nijmegen, the Netherlands (2007-2011), followed by a Master's degree in Cancerology from the University of Amsterdam (2011-2013). In 2013, she joined the team of Academician Reuven Agami at the Netherlands Cancer Institute for her doctoral research on the systematic relationship between gene transcription regulation and protein translation efficiency. During this period, she pioneered the development of CRISPR screening methods targeting the non-coding genome and enhancers. In 2019, she began her postdoctoral research at the Institute of Developmental Biology and Stem Cell Research of the Royal Netherlands Academy of Arts and Sciences, focusing on 3D genome regulation and cohesin-related studies. Her research findings have been published in international journals such as Cell, Nature Biotechnology, Molecular Cell, and Genome Biology. In 2025, she joined the Modern Institute of Biology at Nanjing University to establish a laboratory dedicated to genome structure regulation.
     </p>
     <p class="member-contact">
       <strong>Email:</strong> r.han@nju.edu.cn<br>
@@ -34,7 +32,7 @@ layout = "page"
       <img src="/img/team/manager1.jpg" alt="Lab Manager" class="member-avatar">
     </div>
     <div class="member-info">
-      <h4>陈管家 (Chen Guanjia)</h4>
+      <h4>李杰</h4>
       <p class="member-title">Lab Manager</p>
       <p class="member-description">
         负责实验室日常运营管理、设备维护、安全管理和行政事务协调。
@@ -52,11 +50,11 @@ layout = "page"
       <img src="/img/team/assistant1.jpg" alt="Research Assistant 1" class="member-avatar">
     </div>
     <div class="member-info">
-      <h4>刘助理 (Liu Zhuli)</h4>
-      <p class="member-title">Research Assistant (2023-)</p>
+      <h4>孙文亚</h4>
+      <p class="member-title">Research Assistant</p>
       <p class="member-description">
-        协助进行分子生物学实验和数据分析工作。
-        Assists with molecular biology experiments and data analysis.
+        测序数据分析工作。
+        Assists with NGS sequencing data analysis.
       </p>
     </div>
   </div>
@@ -66,11 +64,11 @@ layout = "page"
       <img src="/img/team/assistant2.jpg" alt="Research Assistant 2" class="member-avatar">
     </div>
     <div class="member-info">
-      <h4>赵技术 (Zhao Jishu)</h4>
-      <p class="member-title">Technical Assistant (2024-)</p>
+      <h4>陈子浩</h4>
+      <p class="member-title">Research Assistant</p>
       <p class="member-description">
-        负责实验技术支持和仪器操作培训。
-        Provides technical support and equipment operation training.
+        负责实验技术支持。
+        Provides technical support.
       </p>
     </div>
   </div>
@@ -84,10 +82,10 @@ layout = "page"
       <img src="/img/team/student1.jpg" alt="Student 1" class="member-avatar">
     </div>
     <div class="member-info">
-      <h4>张三 (Zhang San)</h4>
-      <p class="member-title">Ph.D. Student (2022-)</p>
+      <h4>张盐盐</h4>
+      <p class="member-title">Master Student（2024-）</p>
       <p class="member-description">
-        Research focus: Chromatin architecture and gene expression regulation
+        Research focus: 
       </p>
     </div>
   </div>
@@ -97,15 +95,15 @@ layout = "page"
       <img src="/img/team/student2.jpg" alt="Student 2" class="member-avatar">
     </div>
     <div class="member-info">
-      <h4>李四 (Li Si)</h4>
-      <p class="member-title">Master Student (2023-)</p>
+      <h4>陈天悦</h4>
+      <p class="member-title">Master Student (2024-)</p>
       <p class="member-description">
-        Research focus: Single-cell genomics and computational biology
+        Research focus: 
       </p>
     </div>
   </div>
 
-  <div class="team-member">
+  <!-- <div class="team-member">
     <div class="member-photo">
       <img src="/img/team/student3.jpg" alt="Student 3" class="member-avatar">
     </div>
@@ -116,10 +114,10 @@ layout = "page"
         Research focus: Epigenetic modifications and cell differentiation
       </p>
     </div>
-  </div>
+  </div> -->
 </div>
 
-## 社工 (Research Interns)
+<!-- ## 社工 (Research Interns)
 
 <div class="team-members interns">
   <div class="team-member">
@@ -149,7 +147,7 @@ layout = "page"
       </p>
     </div>
   </div>
-</div>
+</div> -->
 
 ---
 
