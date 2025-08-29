@@ -9,27 +9,9 @@
 col-md-8 col-md-offset-1
 col-sm-12
 col-xs-12
-post-container"><div class=search-container><h2>搜索实验室内容</h2><div class=search-form><input type=text id=search-input placeholder=输入关键词进行搜索... class="form-control search-input"><div class=search-tips><p><strong>搜索提示：</strong></p><ul><li>按 <kbd>/</kbd> 键快速聚焦到搜索框</li><li>按 <kbd>Escape</kbd> 键清空搜索</li><li>支持搜索文章标题、内容、标签等</li></ul></div></div><div id=search-loading class=search-loading style=display:none><p>正在搜索中...</p></div><div id=search-results class=search-results></div><div id=no-results class=no-results style=display:none><h3>未找到匹配的内容</h3><p>请尝试：</p><ul><li>检查拼写是否正确</li><li>使用更通用的关键词</li><li>尝试不同的搜索词组合</li></ul></div></div><script>document.addEventListener("DOMContentLoaded",function(){const e=document.getElementById("search-input"),t=document.getElementById("search-results"),s=document.getElementById("search-loading"),n=document.getElementById("no-results");let o=[],i;fetch("/index.json").then(e=>e.json()).then(e=>{o=e,console.log("搜索数据已加载，共",e.length,"个项目")}).catch(e=>{console.error("搜索数据加载失败:",e)});function r(e){if(!e.trim()){t.innerHTML="",n.style.display="none";return}s.style.display="block",t.innerHTML="",n.style.display="none",setTimeout(()=>{const t=o.filter(t=>{const n=[t.title||"",t.content||"",t.summary||"",(t.tags||[]).join(" "),(t.categories||[]).join(" ")].join(" ").toLowerCase();return n.includes(e.toLowerCase())});s.style.display="none",t.length>0?c(t,e):n.style.display="block"},300)}function c(e,n){const s=e.map(e=>{const s=e.title||"无标题",o=e.summary||e.content||"无内容摘要",i=e.url||"#",t=e.date||"",r=e.type||"page",c=a(s,n),d=a(o.substring(0,200)+"...",n);return`
-                <div class="search-result-item">
-                    <div class="search-result-header">
-                        <h4><a href="${i}">${c}</a></h4>
-                        <span class="search-result-type">${l(r)}</span>
-                    </div>
-                    <div class="search-result-content">
-                        <p>${d}</p>
-                    </div>
-                    ${t?`<div class="search-result-meta">发布日期: ${t}</div>`:""}
-                    ${e.tags&&e.tags.length>0?`<div class="search-result-tags">
-                            标签: ${e.tags.map(e=>`<span class="tag">${e}</span>`).join(" ")}
-                         </div>`:""}
-                </div>
-            `}).join("");t.innerHTML=`
-            <div class="search-results-header">
-                <h3>找到 ${e.length} 个结果</h3>
-            </div>
-            ${s}
-        `}function a(e,t){if(!t.trim())return e;const n=new RegExp(`(${t.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")})`,"gi");return e.replace(n,"<mark>$1</mark>")}function l(e){const t={post:"文章",page:"页面",publication:"发表论文",team:"团队",resource:"资源"};return t[e]||"内容"}e.addEventListener("input",function(e){clearTimeout(i);const t=e.target.value;i=setTimeout(()=>r(t),300)}),document.addEventListener("keydown",function(s){s.key==="/"&&s.target.tagName!=="INPUT"&&s.target.tagName!=="TEXTAREA"&&(s.preventDefault(),e.focus()),s.key==="Escape"&&document.activeElement===e&&(e.value="",t.innerHTML="",n.style.display="none",e.blur())}),e.focus()})</script></div><div class="col-lg-3 col-lg-offset-0
+post-container"><link href=/_pagefind/pagefind-ui.css rel=stylesheet><script src=/_pagefind/pagefind-ui.js type=text/javascript></script><div id=search></div><script>window.addEventListener("DOMContentLoaded",e=>{new PagefindUI({element:"#search"})})</script></div><div class="col-lg-3 col-lg-offset-0
 col-md-3 col-md-offset-0
 col-sm-12
 col-xs-12
-sidebar-container"><section class="visible-md visible-lg"><div class=short-about><a href=/about><img src=/img/logo.jpeg alt=avatar style=cursor:pointer></a><p>Institute of Modern Biology,Nanjing University</p><ul class=list-inline></ul></div></section></div></div></div></body></html>
+sidebar-container"><section class="visible-md visible-lg"><div class=short-about><a href=/about><img src=/img/logo.jpeg alt=avatar style=cursor:pointer></a><p>Institute of Modern Biology,Nanjing University</p><ul class=list-inline></ul></div></section></div></div></div><footer><div class=container><div class=row><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"><ul class="list-inline text-center"></ul><p class="copyright text-muted">Copyright &copy; Han Lab-NJU IMB 2025<br><a href=https://themes.gohugo.io/hugo-theme-cleanwhite>CleanWhite Hugo Theme</a> by <a href=https://zhaohuabing.com>Huabing</a> |
+<iframe style=margin-left:2px;margin-bottom:-5px frameborder=0 scrolling=0 width=100px height=20px src="https://ghbtns.com/github-btn.html?user=zhaohuabing&repo=hugo-theme-cleanwhite&type=star&count=true"></iframe></p></div></div></div></footer><script>function loadAsync(e,t){var s=document,o="script",n=s.createElement(o),i=s.getElementsByTagName(o)[0];n.src=e,t&&n.addEventListener("load",function(e){t(null,e)},!1),i.parentNode.insertBefore(n,i)}</script><script>$("#tag_cloud").length!==0&&loadAsync("/js/jquery.tagcloud.js",function(){$.fn.tagcloud.defaults={color:{start:"#bbbbee",end:"#0085a1"}},$("#tag_cloud a").tagcloud()})</script><script>loadAsync("https://cdn.jsdelivr.net/npm/fastclick@1.0.6/lib/fastclick.min.js",function(){var e=document.querySelector("nav");e&&FastClick.attach(e)})</script><script type=text/javascript>function generateCatalog(e){_containerSelector="div.post-container";var t,n,s,o,i,a=$(_containerSelector),r=a.find("h1,h2,h3,h4,h5,h6");return $(e).html(""),r.each(function(){n=$(this).prop("tagName").toLowerCase(),o="#"+$(this).prop("id"),t=$(this).text(),i=$('<a href="'+o+'" rel="nofollow" title="'+t+'">'+t+"</a>"),s=$('<li class="'+n+'_nav"></li>').append(i),$(e).append(s)}),!0}generateCatalog(".catalog-body"),$(".catalog-toggle").click(function(e){e.preventDefault(),$(".side-catalog").toggleClass("fold")}),loadAsync("/js/jquery.nav.js",function(){$(".catalog-body").onePageNav({currentClass:"active",changeHash:!1,easing:"swing",filter:"",scrollSpeed:700,scrollOffset:0,scrollThreshold:.2,begin:null,end:null,scrollChange:null,padding:80})})</script></body></html>
