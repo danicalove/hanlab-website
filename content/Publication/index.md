@@ -6,123 +6,76 @@ layout = "page"
 +++
 
 ## Recent Publications
-
 ### 2024
-
-**STAG2-mediated chromatin interactions regulate m6A modification and gene expression**  
-Zhang, S., Li, W., Han, R.*  
-*Nature Cell Biology*, 2024, 26(8): 1234-1245  
-DOI: [10.1038/s41556-024-01234-5](https://doi.org/10.1038/s41556-024-01234-5)  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/12345678/)
-
-**Single-cell analysis reveals heterogeneity in chromatin architecture during cell differentiation**  
-Wang, M., Chen, Y., Liu, J., Han, R.*  
-*Cell*, 2024, 187(12): 3456-3470  
-DOI: [10.1016/j.cell.2024.05.012](https://doi.org/10.1016/j.cell.2024.05.012)  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/23456789/)
-
-**3D genome organization controls enhancer-promoter interactions in stem cells**  
-Zhou, X., Ma, L., Han, R.*  
-*Science*, 2024, 384(6695): 567-572  
-DOI: [10.1126/science.abc1234](https://doi.org/10.1126/science.abc1234)  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/34567890/)
-
-### 2023
-
-**Chromatin topology regulates lineage-specific gene expression programs**  
-Li, H., Yang, P., Wang, Q., Han, R.*  
-*Nature Genetics*, 2023, 55(4): 789-801  
-DOI: [10.1038/s41588-023-01234-x](https://doi.org/10.1038/s41588-023-01234-x)  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/45678901/)
-
-**Epigenetic modifications shape 3D chromatin structure in cancer cells**  
-Xu, T., Zhao, F., Han, R.*  
-*Cell Reports*, 2023, 42(8): 112567  
-DOI: [10.1016/j.celrep.2023.112567](https://doi.org/10.1016/j.celrep.2023.112567)  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/56789012/)
-
-**Computational analysis of Hi-C data reveals novel chromatin domains**  
-Chen, G., Liu, Y., Han, R.*  
-*Bioinformatics*, 2023, 39(14): 2345-2354  
-DOI: [10.1093/bioinformatics/btad123](https://doi.org/10.1093/bioinformatics/btad123)  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/67890123/)
+**Targeted cohesin loading characterizes the entry and exit sites of loop extrusion trajectories**
+Han, R.#, Huang, Y., Vaandrager, I., Allahyar, A., Magnitov, M., Verstegen, M., de Wit, E., Krijger, P.H.L., de Laat, W.
+Manuscript in revision
 
 ### 2022
-
-**CTCF mediates chromatin looping in response to developmental signals**  
-Sun, K., Huang, J., Han, R.*  
-*Molecular Cell*, 2022, 82(16): 3012-3025  
-DOI: [10.1016/j.molcel.2022.07.001](https://doi.org/10.1016/j.molcel.2022.07.001)  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/78901234/)
-
-**Multi-omics integration reveals chromatin-metabolism coupling**  
-Wu, D., Zhang, H., Han, R.*  
-*Cell Metabolism*, 2022, 35(9): 1890-1905  
-DOI: [10.1016/j.cmet.2022.08.012](https://doi.org/10.1016/j.cmet.2022.08.012)  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/89012345/)
+**Building regulatory landscapes reveals that an enhancer can recruit cohesin to create contactdomains, engage CTCF sites and activate distant genes**
+Rinzema, N.J., Sofiadis, K., Tjalsma, S.J.D., Verstegen, M.J.A.M., Oz, Y., Valdes-Quezada, C., Felder, A.K., Filipovska, T., van der Elst, S., de Andrade dos Ramos, Z., Han, R., Krijger, P.H.L., de Laat, W.*
+*Nature Structural & Molecular Biology*, 2022, 29(6): 563-574
+DOI: 10.1038/s41594-022-00785-9
 
 ### 2021
+**A comprehensive enhancer screen identifies TRAM2 as a key and novel mediator of YAP oncogenesis**
+Li, L., Ugalde, A.P., Scheele, C.L.G.J., Dieter, S.M., Nagel, R., Ma, J., Pataskar, A., Korkmaz, G., Elkon, R., Chien, M.P., You, L., Su, P.R., Bleijerveld, O.B., Altelaar, M., Momchev, L., Manber, Z., Han, R., van Breugel, P.C., Lopes, R., Ten Dijke, P., van Rheenen, J., Agami, R.*
+Genome Biology, 2021, 22(1): 1-28
+DOI: 10.1186/s13059-021-02373-5
 
-**Chromatin accessibility landscapes define cell type-specific gene regulation**  
-Gao, L., Wang, X., Han, R.*  
-*Nature Communications*, 2021, 12: 4567  
-DOI: [10.1038/s41467-021-24567-8](https://doi.org/10.1038/s41467-021-24567-8)  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/90123456/)
+### 2020
+**Transcription Dynamics Regulate Poly(A) Tails and Expression of the RNA Degradation Machinery to Balance mRNA Levels**
+Slobodin, B., Bahat, A., Sehrawat, U., Becker-Herman, S., Zuckerman, B., Weiss, A.N., Han, R., Elkon, R., Agami, R., Ulitsky, I., Shachar, I., Dikstein, R.*
+Molecular Cell, 2020, 78(3): 434-444
+DOI: 10.1016/j.molcel.2020.03.007
 
-**Dynamic chromatin remodeling during embryonic development**  
+### 2019
+**SLC1A3 contributes to L-asparaginase resistance in solid tumors**
+Sun, J., Nagel, R., Zaal, E.A., Ugalde, A.P., Han, R., Proost, N., Song, J.Y., Pataskar, A., Burylo, A., Fu, H., Poelarends, G.J., van de Ven, M., van Tellingen, O., Berkers, C.R., Agami, R.*
+The EMBO Journal, 2019, 38(21): e102147
+DOI: 10.15252/embj.2019102147
+
+### 2018
+**Functional CRISPR screen identifies AP1-associated enhancer regulating FOXF1 to modulate oncogene-induced senescence**
+Han, R.#, Li, L.#, Ugalde, A.P., Tal, A., Manber, Z., Barbera, E.P., Della Chiara, V., Elkon, R., Agami, R.*
+Genome Biology, 2018, 19: 118
+DOI: 10.1186/s13059-018-1495-0
+
+**LncRNA-OIS1 regulates DPP4 activation to modulate senescence induced by RAS**
+Li, L., van Breugel, P.C., Loayza-Puch, F., Ugalde, A.P., Korkmaz, G., Messika-Gold, N., Han, R., Lopes, R., Barbera, E.P., Teunissen, H., de Wit, E., Soares, R.J., Nielsen, B.S., Holmstrøm, K., Martínez-Herrera, D.J., Huarte, M., Louloupi, A., Drost, J., Elkon, R., Agami, R.*
+Nucleic Acids Research, 2018, 46(6): 3214-3227
+DOI: 10.1093/nar/gky087
+
+### 2017
+**Transcription impacts the efficiency of mRNA translation via co-transcriptional N6-adenosine methylation**
+Slobodin, B.#, Han, R.#, Calderone, V., Oude Vrielink, J.A.F., Loayza-Puch, F., Elkon, R., Agami, R.*
+Cell, 2017, 169(2): 326-337
+DOI: 10.1016/j.cell.2017.03.031
+
+**The Methylated way to translation**
+Han, R., Slobodin, B., Agami, R.
+Oncotarget, 2017, 8(55): 93313-93314
+DOI: 10.18632/oncotarget.21871
+
+### 2016
+**Functional genetic screens for enhancer elements in the human genome using CRISPR-Cas9**
+Korkmaz, G.#, Lopes, R.#, Ugalde, A.P., Han, R., Myacheva, K., Zwart, W., Elkon, R., Agami, R.*
+Nature Biotechnology, 2016, 34(2): 192-198
+DOI: 10.1038/nbt.3450
+
+### 2012
+**Adenosine triphosphate‐binding cassette transporter genes up‐regulation in untreated hepatocellular carcinoma is mediated by cellular microRNAs**
+Borel, F., Han, R., Visser, A., Petry, H., van Deventer, S.J.H., Jansen, P.L.M., Konstantinova, P., with collaboration of the Réseau Centre de Ressources Biologiques Foie (French Liver Biobanks Network), France
+Hepatology, 2012, 55(3): 821-832
+DOI: 10.1002/hep.24682
+
+
+<!-- **Dynamic chromatin remodeling during embryonic development**  
 Liu, Q., Feng, Y., Han, R.*  
 *Developmental Cell*, 2021, 56(12): 1678-1692  
 DOI: [10.1016/j.devcel.2021.05.023](https://doi.org/10.1016/j.devcel.2021.05.023)  
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/01234567/)
+[PubMed](https://pubmed.ncbi.nlm.nih.gov/01234567/) -->
 
----
-
-## Review Articles
-
-**Three-dimensional genome organization: principles and functional implications**  
-Han, R.*  
-*Annual Review of Genomics and Human Genetics*, 2023, 24: 123-145  
-DOI: [10.1146/annurev-genom-120122-012345](https://doi.org/10.1146/annurev-genom-120122-012345)
-
-**Chromatin topology and gene regulation: from structure to function**  
-Han, R.*, Zhang, Y.  
-*Nature Reviews Genetics*, 2022, 23(8): 456-472  
-DOI: [10.1038/s41576-022-00456-7](https://doi.org/10.1038/s41576-022-00456-7)
-
-**Emerging technologies for studying 3D genome architecture**  
-Chen, L., Han, R.*  
-*Trends in Cell Biology*, 2021, 31(10): 789-803  
-DOI: [10.1016/j.tcb.2021.06.008](https://doi.org/10.1016/j.tcb.2021.06.008)
-
----
-
-## Book Chapters
-
-**Chromatin Organization and Gene Expression Control**  
-Han, R.  
-In: *Epigenetic Mechanisms in Development and Disease* (Eds: Smith, A. & Jones, B.)  
-Springer Nature, 2023, pp. 245-268  
-ISBN: 978-3-030-12345-6
-
----
-
-## Conference Presentations (Selected)
-
-### 2024
-- **Keystone Symposia on Chromatin and Epigenetics**, Keystone, CO, USA (Invited Speaker)
-- **EMBO Conference on Chromosome Architecture**, Heidelberg, Germany (Oral Presentation)
-- **Cold Spring Harbor Laboratory Meeting on Genome Organization**, NY, USA (Poster)
-
-### 2023
-- **Gordon Research Conference on Chromatin Structure & Function**, New Hampshire, USA (Invited Speaker)  
-- **FASEB Conference on Chromatin and Gene Expression**, Vermont, USA (Oral Presentation)
-- **International Conference on 3D Genomics**, Beijing, China (Keynote Speaker)
-
-### 2022
-- **American Society for Cell Biology Annual Meeting**, Washington DC, USA (Oral Presentation)
-- **European Molecular Biology Conference**, Vienna, Austria (Poster)
-
----
 
 *实验室发表文章列表持续更新中... / Publication list is continuously updated...*
 
