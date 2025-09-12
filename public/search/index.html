@@ -9,7 +9,30 @@
 col-md-8 col-md-offset-1
 col-sm-12
 col-xs-12
-post-container"><link href=/_pagefind/pagefind-ui.css rel=stylesheet><script src=/_pagefind/pagefind-ui.js type=text/javascript></script><div id=search></div><script>window.addEventListener("DOMContentLoaded",e=>{new PagefindUI({element:"#search"})})</script></div><div class="col-lg-3 col-lg-offset-0
+post-container"><div id=search-container><div class=search-tips><div class=tips-content><span class=tip-item><kbd>/</kbd> 激活搜索</span>
+<span class=tip-item><kbd>Esc</kbd> 清空搜索</span>
+<span class=tip-item><kbd>Ctrl+K</kbd> 快速搜索</span></div></div><div class=local-search-box><input type=text id=search-input placeholder=搜索研究文章、团队信息... autocomplete=off><div class=search-loading id=search-loading style=display:none><div class=loading-spinner></div><p>搜索中...</p></div></div><div id=search-results></div></div><script>(function(){"use strict";let e=[],t=!1;async function o(){if(t)return;try{console.log("Loading search index...");const n=await fetch("/index.json");if(n.ok)e=await n.json(),console.log("Search data loaded:",e.length,"items"),t=!0;else throw new Error("Failed to load search index")}catch(n){console.error("Error loading search index:",n),e=[{title:"搜索功能",permalink:"/search/",summary:"搜索功能已启用，但索引加载失败。请刷新页面重试。",date:(new Date).toISOString()}],t=!0}}function i(t){if(!t||t.length<2)return[];t=t.toLowerCase();const s=[];return e.forEach(e=>{let o=0;const i=(e.title||"").toLowerCase(),a=(e.content||e.summary||"").toLowerCase();if(i.includes(t)&&(o+=10,i===t&&(o+=20)),a.includes(t)){o+=5;const e=(a.match(new RegExp(t,"g"))||[]).length;o+=e*2}e.tags&&Array.isArray(e.tags)&&e.tags.forEach(e=>{e.toLowerCase().includes(t)&&(o+=8)}),o>0&&s.push({...e,score:o,highlight:n(e.title,t)})}),s.sort((e,t)=>t.score-e.score)}function n(e,t){if(!e||!t)return e;const n=new RegExp(`(${a(t)})`,"gi");return e.replace(n,"<mark>$1</mark>")}function a(e){return e.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")}function r(e,t){const s=document.getElementById("search-results");if(!s)return;if(e.length===0){s.innerHTML=`
+                <div class="no-results">
+                    <h3>未找到匹配结果</h3>
+                    <p>尝试使用不同的关键词搜索，或查看<a href="/">所有文章</a></p>
+                </div>
+            `;return}const o=`
+            <div class="search-stats">
+                <div class="stats-content">
+                    <span class="result-count">找到 ${e.length} 条结果</span>
+                    <span class="search-query">关于 "${t}"</span>
+                </div>
+            </div>
+        `,i=e.map(e=>{const o=e.date?new Date(e.date).toLocaleDateString("zh-CN"):"",s=e.content||e.summary||"",i=s.length>200?s.substring(0,200)+"...":s,a=e.permalink||e.url||"#";return`
+                <div class="post-item">
+                    <div class="post-header">
+                        ${o?`<span class="post-meta">${o}</span>`:""}
+                        ${e.tags?`<div class="post-tags">${e.tags.map(e=>`<span class="tag">${e}</span>`).join("")}</div>`:""}
+                    </div>
+                    <h2><a class="post-link" href="${a}">${e.highlight||e.title}</a></h2>
+                    ${i?`<div class="post-snippet">${n(i,t)}</div>`:""}
+                </div>
+            `}).join("");s.innerHTML=o+i}function c(){const e=document.getElementById("search-input"),t=document.getElementById("search-loading");if(!e||!t)return;let n;e.addEventListener("input",function(e){const s=e.target.value.trim();if(clearTimeout(n),s.length<2){document.getElementById("search-results").innerHTML="";return}t.style.display="block",n=setTimeout(()=>{const e=i(s);r(e,s),t.style.display="none"},300)}),e.focus();const o=new URLSearchParams(window.location.search),s=o.get("q");s&&(e.value=s,e.dispatchEvent(new Event("input")))}document.addEventListener("keydown",function(e){if(e.key==="/"&&!l())if(e.preventDefault(),window.location.pathname.includes("/search/")){const e=document.getElementById("search-input");e&&e.focus()}else window.location.href="/search/";if(e.key==="Escape"){const e=document.getElementById("search-input");e&&(e.value="",e.dispatchEvent(new Event("input")),e.focus())}if((e.ctrlKey||e.metaKey)&&e.key==="k")if(e.preventDefault(),window.location.pathname.includes("/search/")){const e=document.getElementById("search-input");e&&e.focus()}else window.location.href="/search/"});function l(){const e=document.activeElement;return e&&(e.tagName==="INPUT"||e.tagName==="TEXTAREA"||e.isContentEditable)}function s(){document.getElementById("search-container")&&o().then(()=>{c()})}document.readyState==="loading"?document.addEventListener("DOMContentLoaded",s):s()})()</script></div><div class="col-lg-3 col-lg-offset-0
 col-md-3 col-md-offset-0
 col-sm-12
 col-xs-12

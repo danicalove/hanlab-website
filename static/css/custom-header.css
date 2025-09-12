@@ -95,22 +95,249 @@
     border-radius: 2px;
 }
 
-/* 团队成员容器 */
-.team-members {
+/* GROUP LEADER 样式 */
+.group-leader {
+    display: flex;
+    padding: 40px;
+    background: linear-gradient(135deg, #f8fbff 0%, #ebf4ff 100%);
+    border-radius: 24px;
+    border: 2px solid rgba(51, 122, 183, 0.15);
+    margin-bottom: 60px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(51, 122, 183, 0.1);
+}
+
+.group-leader::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: linear-gradient(90deg, #337ab7, #2980b9, #5bc0de);
+    background-size: 300% 100%;
+    animation: gradient-flow 4s ease-in-out infinite;
+}
+
+@keyframes gradient-flow {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+.leader-photo {
+    flex-shrink: 0;
+    margin-right: 40px;
+    position: relative;
+}
+
+.leader-photo::after {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border: 2px solid rgba(51, 122, 183, 0.1);
+    border-radius: 50%;
+    animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes pulse-ring {
+    0% {
+        transform: scale(0.9);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.1);
+        opacity: 0;
+    }
+}
+
+.leader-avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #fff;
+    box-shadow: 0 15px 35px rgba(51, 122, 183, 0.25);
+    transition: all 0.4s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.group-leader:hover .leader-avatar {
+    transform: scale(1.05);
+    box-shadow: 0 20px 40px rgba(51, 122, 183, 0.3);
+}
+
+.leader-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.leader-info h3 {
+    font-size: 32px;
+    color: #1a365d;
+    margin-bottom: 12px;
+    font-weight: 700;
+    background: linear-gradient(135deg, #2c3e50 0%, #337ab7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    line-height: 1.2;
+}
+
+.leader-title {
+    display: inline-block;
+    background: linear-gradient(135deg, #337ab7 0%, #2980b9 100%);
+    color: white;
+    padding: 10px 24px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    box-shadow: 0 4px 15px rgba(51, 122, 183, 0.3);
+    transition: all 0.3s ease;
+}
+
+.leader-title:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(51, 122, 183, 0.4);
+}
+
+.leader-description {
+    line-height: 1.8;
+    color: #4a5568;
+    font-size: 16px;
+    margin-bottom: 28px;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.leader-contact {
+    background: linear-gradient(135deg, rgba(51, 122, 183, 0.03) 0%, rgba(91, 192, 222, 0.05) 100%);
+    padding: 18px 24px;
+    border-radius: 12px;
+    border-left: 5px solid #337ab7;
+    box-shadow: 0 4px 12px rgba(51, 122, 183, 0.08);
+}
+
+.leader-contact p {
+    margin: 10px 0;
+    color: #2d3748;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+/* GROUP MEMBERS 样式 */
+.group-members {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 25px;
-    margin-top: 30px;
+    margin-top: 40px;
+    padding: 20px 0;
 }
 
-.team-members.students,
-.team-members.assistants,
-.team-members.interns {
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+.member-card {
+    text-align: center;
+    padding: 25px 15px;
+    background: linear-gradient(135deg, #ffffff 0%, #f8fbff 100%);
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+    border: 1px solid rgba(51, 122, 183, 0.08);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.team-members.manager {
-    grid-template-columns: 1fr;
-    max-width: 800px;
+.member-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #337ab7, #5bc0de, #66bb6a, #ff9800);
+    background-size: 400% 100%;
+    animation: shimmer 3s ease-in-out infinite;
+}
+
+@keyframes shimmer {
+    0%, 100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+.member-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+    border-color: rgba(51, 122, 183, 0.2);
+}
+
+.member-card .member-photo {
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.member-card .member-avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 6px 18px rgba(51, 122, 183, 0.2);
+    transition: all 0.4s ease;
+    position: relative;
+}
+
+.member-card:hover .member-avatar {
+    transform: scale(1.1);
+    box-shadow: 0 8px 25px rgba(51, 122, 183, 0.3);
+    border-color: #337ab7;
+}
+
+.member-card h4 {
+    margin: 12px 0 8px;
+    color: #2c3e50;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: -0.3px;
+}
+
+.member-position {
+    display: inline-block;
+    background: linear-gradient(135deg, #337ab7 0%, #5bc0de 100%);
+    color: white;
+    padding: 6px 14px;
+    border-radius: 18px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px rgba(51, 122, 183, 0.3);
+    transition: all 0.3s ease;
+}
+
+.member-card:hover .member-position {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(51, 122, 183, 0.4);
 }
 
 /* 团队成员卡片 */
@@ -298,55 +525,93 @@
 
 /* 响应式设计 */
 @media (max-width: 768px) {
-    .team-members.students {
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    
-    .team-member {
+    .group-leader {
         flex-direction: column;
         text-align: center;
-        padding: 25px 20px;
+        padding: 30px 20px;
     }
     
-    .member-photo {
+    .leader-photo {
         margin-right: 0;
-        margin-bottom: 20px;
+        margin-bottom: 25px;
         align-self: center;
     }
     
-    .member-avatar {
-        width: 120px;
-        height: 120px;
+    .leader-avatar {
+        width: 160px;
+        height: 160px;
     }
     
-    .team-member.pi .member-avatar {
-        width: 140px;
-        height: 140px;
+    .leader-info h3 {
+        font-size: 26px;
     }
     
-    .member-info h3 {
-        font-size: 22px;
+    .group-members {
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        gap: 20px;
+        padding: 15px 0;
     }
     
-    .member-info h4 {
-        font-size: 18px;
+    .member-card {
+        padding: 20px 12px;
+        min-height: 200px;
+    }
+    
+    .member-card .member-avatar {
+        width: 85px;
+        height: 85px;
+    }
+    
+    .member-card h4 {
+        font-size: 15px;
     }
 }
 
 @media (max-width: 480px) {
-    .team-member {
-        margin: 0 -10px 20px;
-        border-radius: 12px;
+    .group-leader {
+        margin: 0 -10px 40px;
+        border-radius: 15px;
+        padding: 25px 15px;
     }
     
-    .member-avatar {
-        width: 100px;
-        height: 100px;
+    .leader-avatar {
+        width: 140px;
+        height: 140px;
     }
     
-    .team-member.pi .member-avatar {
-        width: 120px;
-        height: 120px;
+    .leader-info h3 {
+        font-size: 22px;
+    }
+    
+    .leader-description {
+        font-size: 15px;
+        text-align: left;
+    }
+    
+    .group-members {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+        margin: 0 -10px;
+    }
+    
+    .member-card {
+        padding: 18px 10px;
+        border-radius: 16px;
+        min-height: 180px;
+    }
+    
+    .member-card .member-avatar {
+        width: 75px;
+        height: 75px;
+    }
+    
+    .member-card h4 {
+        font-size: 14px;
+        margin: 10px 0 6px;
+    }
+    
+    .member-position {
+        font-size: 10px;
+        padding: 5px 10px;
     }
 }
