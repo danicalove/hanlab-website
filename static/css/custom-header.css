@@ -240,91 +240,32 @@
 
 /* Scientific Training and Awards Section */
 .leader-training {
-    margin: 32px 0;
-    padding: 24px;
-    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
-    border-radius: 16px;
-    border: 1px solid rgba(51, 122, 183, 0.1);
+    margin: 28px 0;
+    padding: 0;
 }
 
 .leader-training h4 {
     color: #2d3748;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
     margin: 0 0 20px 0;
-    padding-bottom: 12px;
-    border-bottom: 2px solid rgba(51, 122, 183, 0.2);
-    background: linear-gradient(135deg, #2c3e50 0%, #337ab7 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(51, 122, 183, 0.2);
 }
 
 .training-timeline {
-    position: relative;
-    padding-left: 35px;
-}
-
-.training-timeline::before {
-    content: '';
-    position: absolute;
-    left: 15px;
-    top: 0;
-    bottom: 0;
-    width: 3px;
-    background: linear-gradient(to bottom, #337ab7, #5bc0de, #66bb6a);
-    border-radius: 2px;
+    margin: 0;
+    padding: 0;
 }
 
 .timeline-item {
-    position: relative;
-    margin-bottom: 24px;
-    padding: 16px 20px;
-    background: rgba(255, 255, 255, 0.6);
-    border-radius: 12px;
-    border-left: 4px solid rgba(51, 122, 183, 0.3);
-    transition: all 0.3s ease;
+    margin-bottom: 16px;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-.timeline-item:hover {
-    background: rgba(255, 255, 255, 0.8);
-    border-left-color: #337ab7;
-    transform: translateX(5px);
-    box-shadow: 0 4px 15px rgba(51, 122, 183, 0.15);
-}
-
-.timeline-item.current {
-    border-left-color: #ff9800;
-    background: linear-gradient(135deg, rgba(255, 152, 0, 0.05) 0%, rgba(255, 193, 7, 0.03) 100%);
-}
-
-.timeline-item.current:hover {
-    border-left-color: #f57c00;
-    background: linear-gradient(135deg, rgba(255, 152, 0, 0.1) 0%, rgba(255, 193, 7, 0.05) 100%);
-}
-
-.timeline-marker {
-    position: absolute;
-    left: -46px;
-    top: 22px;
-    width: 12px;
-    height: 12px;
-    background: #fff;
-    border: 3px solid #337ab7;
-    border-radius: 50%;
-    transition: all 0.3s ease;
-    z-index: 2;
-}
-
-.timeline-item.current .timeline-marker {
-    border-color: #ff9800;
-    background: #fff5f0;
-    box-shadow: 0 0 0 4px rgba(255, 152, 0, 0.2);
-}
-
-.timeline-item:hover .timeline-marker {
-    transform: scale(1.2);
-    box-shadow: 0 0 0 6px rgba(51, 122, 183, 0.2);
+.timeline-item:last-child {
+    border-bottom: none;
 }
 
 .timeline-content {
@@ -335,9 +276,7 @@
     font-size: 14px;
     font-weight: 600;
     color: #337ab7;
-    margin: 0 0 8px 0;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    margin: 0 0 4px 0;
 }
 
 .timeline-item.current .timeline-year {
@@ -348,20 +287,16 @@
     font-size: 15px;
     font-weight: 500;
     color: #2d3748;
-    margin: 0 0 6px 0;
+    margin: 0 0 4px 0;
     line-height: 1.4;
 }
 
 .timeline-award {
     font-size: 14px;
-    color: #4a5568;
+    color: #666;
     margin: 0;
     line-height: 1.4;
     font-style: italic;
-    padding: 8px 12px;
-    background: linear-gradient(135deg, rgba(255, 152, 0, 0.1) 0%, rgba(255, 193, 7, 0.05) 100%);
-    border-radius: 8px;
-    border-left: 3px solid #ff9800;
 }
 
 /* GROUP MEMBERS 样式 */
@@ -673,29 +608,17 @@
     }
     
     .leader-training {
-        margin: 24px 0;
-        padding: 20px;
-        text-align: left;
+        margin: 20px 0;
+        padding: 0;
     }
     
-    .training-timeline {
-        padding-left: 30px;
-    }
-    
-    .training-timeline::before {
-        left: 13px;
-    }
-    
-    .timeline-marker {
-        left: -39px;
-        width: 10px;
-        height: 10px;
-        top: 18px;
+    .leader-training h4 {
+        font-size: 16px;
     }
     
     .timeline-item {
-        padding: 12px 16px;
-        margin-bottom: 20px;
+        padding: 10px 0;
+        margin-bottom: 12px;
     }
     
     .group-members {
@@ -741,34 +664,17 @@
     }
     
     .leader-training {
-        margin: 20px 0;
-        padding: 16px;
+        margin: 16px 0;
+        padding: 0;
     }
     
     .leader-training h4 {
-        font-size: 18px;
-    }
-    
-    .training-timeline {
-        padding-left: 25px;
-    }
-    
-    .training-timeline::before {
-        left: 11px;
-        width: 2px;
-    }
-    
-    .timeline-marker {
-        left: -33px;
-        width: 8px;
-        height: 8px;
-        border-width: 2px;
-        top: 16px;
+        font-size: 16px;
     }
     
     .timeline-item {
-        padding: 10px 12px;
-        margin-bottom: 16px;
+        padding: 8px 0;
+        margin-bottom: 10px;
     }
     
     .timeline-year {
@@ -781,7 +687,6 @@
     
     .timeline-award {
         font-size: 13px;
-        padding: 6px 10px;
     }
     
     .group-members {
