@@ -20,28 +20,19 @@ layout = "page"
     
     <div class="leader-training">
       <h4>Scientific Training and Awards</h4>
-      <div class="training-timeline">
-        <div class="timeline-item current">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <p class="timeline-year">2025 - Present</p>
-            <p class="timeline-position">Group leader at Nanjing University</p>
-            <p class="timeline-award">Recipient of Nanjing University Research Program for International Scholars in 2025</p>
-          </div>
+      <div class="training-list">
+        <div class="training-item current">
+          <p class="training-year">2025 - Present</p>
+          <p class="training-position">Group leader at Nanjing University</p>
+          <p class="training-award">Recipient of Nanjing University Research Program for International Scholars in 2025</p>
         </div>
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <p class="timeline-year">2019 - 2024</p>
-            <p class="timeline-position">Postdoc in the group of Wouter de Laat at Hubrecht Institute in Utrecht, The Netherlands</p>
-          </div>
+        <div class="training-item">
+          <p class="training-year">2019 - 2024</p>
+          <p class="training-position">Postdoc in the group of Wouter de Laat at Hubrecht Institute in Utrecht, The Netherlands</p>
         </div>
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <p class="timeline-year">2013 - 2019</p>
-            <p class="timeline-position">PhD in the group of Reuven Agami at Netherlands Cancer Institute in Amsterdam, The Netherlands</p>
-          </div>
+        <div class="training-item">
+          <p class="training-year">2013 - 2019</p>
+          <p class="training-position">PhD in the group of Reuven Agami at Netherlands Cancer Institute in Amsterdam, The Netherlands</p>
         </div>
       </div>
     </div>
