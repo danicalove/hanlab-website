@@ -15,8 +15,37 @@ layout = "page"
     <h3>Dr. Ruiqi Han (韩瑞琦)</h3>
     <p class="leader-title">Principal Investigator & Group Leader</p>
     <p class="leader-description">
-      Professor Ruiqi Han obtained her Bachelor's degree in Life Sciences from Radboud University Nijmegen, the Netherlands (2007-2011), followed by a Master's degree in Cancerology from the University of Amsterdam (2011-2013). In 2013, she joined the team of Academician Reuven Agami at the Netherlands Cancer Institute for her doctoral research on the systematic relationship between gene transcription regulation and protein translation efficiency. During this period, she pioneered the development of CRISPR screening methods targeting the non-coding genome and enhancers. In 2019, she began her postdoctoral research at the Institute of Developmental Biology and Stem Cell Research of the Royal Netherlands Academy of Arts and Sciences, focusing on 3D genome regulation and cohesin-related studies. Her research findings have been published in international journals such as Cell, Nature Biotechnology, Molecular Cell, and Genome Biology. In 2025, she joined the Modern Institute of Biology at Nanjing University to establish a laboratory dedicated to genome structure regulation.
+      Ruiqi Han is a principal investigator, assistant professor at Institute of Modern Biology (IMB) of Nanjing University. The group is interested in understanding how higher order 3D genomic architechtures are orgnized and their dynamic interactions with other cellular processes, such as transcription, replication, and DNA damage repair. The Han group develops new techniques like TArgeted Cohesin Loader (TACL) to actively shape the 3D genome via local recruitment of cohesin. The technique enables us to study the consequences of local structural changes.
     </p>
+    
+    <div class="leader-training">
+      <h4>Scientific Training and Awards</h4>
+      <div class="training-timeline">
+        <div class="timeline-item current">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="timeline-year">2025 - Present</p>
+            <p class="timeline-position">Group leader at Nanjing University</p>
+            <p class="timeline-award">Recipient of Nanjing University Research Program for International Scholars in 2025</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="timeline-year">2019 - 2024</p>
+            <p class="timeline-position">Postdoc in the group of Wouter de Laat at Hubrecht Institute in Utrecht, The Netherlands</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <p class="timeline-year">2013 - 2019</p>
+            <p class="timeline-position">PhD in the group of Reuven Agami at Netherlands Cancer Institute in Amsterdam, The Netherlands</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <div class="leader-contact">
       <p><strong>Email:</strong> r.han@nju.edu.cn</p>
       <p><strong>Office:</strong> Room 302, Institute of Modern Biology</p>

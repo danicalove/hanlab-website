@@ -238,6 +238,131 @@
     font-weight: 500;
 }
 
+/* Scientific Training and Awards Section */
+.leader-training {
+    margin: 32px 0;
+    padding: 24px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.05) 100%);
+    border-radius: 16px;
+    border: 1px solid rgba(51, 122, 183, 0.1);
+}
+
+.leader-training h4 {
+    color: #2d3748;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgba(51, 122, 183, 0.2);
+    background: linear-gradient(135deg, #2c3e50 0%, #337ab7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.training-timeline {
+    position: relative;
+    padding-left: 30px;
+}
+
+.training-timeline::before {
+    content: '';
+    position: absolute;
+    left: 12px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(to bottom, #337ab7, #5bc0de, #66bb6a);
+    border-radius: 2px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 24px;
+    padding: 16px 20px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    border-left: 4px solid rgba(51, 122, 183, 0.3);
+    transition: all 0.3s ease;
+}
+
+.timeline-item:hover {
+    background: rgba(255, 255, 255, 0.8);
+    border-left-color: #337ab7;
+    transform: translateX(5px);
+    box-shadow: 0 4px 15px rgba(51, 122, 183, 0.15);
+}
+
+.timeline-item.current {
+    border-left-color: #ff9800;
+    background: linear-gradient(135deg, rgba(255, 152, 0, 0.05) 0%, rgba(255, 193, 7, 0.03) 100%);
+}
+
+.timeline-item.current:hover {
+    border-left-color: #f57c00;
+    background: linear-gradient(135deg, rgba(255, 152, 0, 0.1) 0%, rgba(255, 193, 7, 0.05) 100%);
+}
+
+.timeline-marker {
+    position: absolute;
+    left: -42px;
+    top: 20px;
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border: 3px solid #337ab7;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.timeline-item.current .timeline-marker {
+    border-color: #ff9800;
+    background: #fff5f0;
+    box-shadow: 0 0 0 4px rgba(255, 152, 0, 0.2);
+}
+
+.timeline-item:hover .timeline-marker {
+    transform: scale(1.2);
+    box-shadow: 0 0 0 6px rgba(51, 122, 183, 0.2);
+}
+
+.timeline-content {
+    margin: 0;
+}
+
+.timeline-year {
+    font-size: 14px;
+    font-weight: 600;
+    color: #337ab7;
+    margin: 0 0 8px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.timeline-item.current .timeline-year {
+    color: #ff9800;
+}
+
+.timeline-position {
+    font-size: 15px;
+    font-weight: 500;
+    color: #2d3748;
+    margin: 0 0 6px 0;
+    line-height: 1.4;
+}
+
+.timeline-award {
+    font-size: 14px;
+    color: #4a5568;
+    margin: 0;
+    line-height: 1.4;
+    font-style: italic;
+    padding: 8px 12px;
+    background: linear-gradient(135deg, rgba(255, 152, 0, 0.1) 0%, rgba(255, 193, 7, 0.05) 100%);
+    border-radius: 8px;
+    border-left: 3px solid #ff9800;
+}
+
 /* GROUP MEMBERS 样式 */
 .group-members {
     display: grid;
@@ -546,6 +671,31 @@
         font-size: 26px;
     }
     
+    .leader-training {
+        margin: 24px 0;
+        padding: 20px;
+        text-align: left;
+    }
+    
+    .training-timeline {
+        padding-left: 25px;
+    }
+    
+    .training-timeline::before {
+        left: 10px;
+    }
+    
+    .timeline-marker {
+        left: -36px;
+        width: 10px;
+        height: 10px;
+    }
+    
+    .timeline-item {
+        padding: 12px 16px;
+        margin-bottom: 20px;
+    }
+    
     .group-members {
         grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
         gap: 20px;
@@ -586,6 +736,49 @@
     .leader-description {
         font-size: 15px;
         text-align: left;
+    }
+    
+    .leader-training {
+        margin: 20px 0;
+        padding: 16px;
+    }
+    
+    .leader-training h4 {
+        font-size: 18px;
+    }
+    
+    .training-timeline {
+        padding-left: 20px;
+    }
+    
+    .training-timeline::before {
+        left: 8px;
+        width: 2px;
+    }
+    
+    .timeline-marker {
+        left: -30px;
+        width: 8px;
+        height: 8px;
+        border-width: 2px;
+    }
+    
+    .timeline-item {
+        padding: 10px 12px;
+        margin-bottom: 16px;
+    }
+    
+    .timeline-year {
+        font-size: 12px;
+    }
+    
+    .timeline-position {
+        font-size: 14px;
+    }
+    
+    .timeline-award {
+        font-size: 13px;
+        padding: 6px 10px;
     }
     
     .group-members {
