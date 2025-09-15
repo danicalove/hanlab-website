@@ -18,29 +18,17 @@ layout = "page"
       Ruiqi Han is a principal investigator, assistant professor at Institute of Modern Biology (IMB) of Nanjing University. The group is interested in understanding how higher order 3D genomic architechtures are orgnized and their dynamic interactions with other cellular processes, such as transcription, replication, and DNA damage repair. The Han group develops new techniques like TArgeted Cohesin Loader (TACL) to actively shape the 3D genome via local recruitment of cohesin. The technique enables us to study the consequences of local structural changes.
     </p>
     
-    <div class="leader-training">
-      <h4>Scientific Training and Awards</h4>
-      <div class="training-list">
-        <div class="training-item current">
-          <p class="training-year">2025 - Present</p>
-          <p class="training-position">Group leader at Nanjing University</p>
-          <p class="training-award">Recipient of Nanjing University Research Program for International Scholars in 2025</p>
-        </div>
-        <div class="training-item">
-          <p class="training-year">2019 - 2024</p>
-          <p class="training-position">Postdoc in the group of Wouter de Laat at Hubrecht Institute in Utrecht, The Netherlands</p>
-        </div>
-        <div class="training-item">
-          <p class="training-year">2013 - 2019</p>
-          <p class="training-position">PhD in the group of Reuven Agami at Netherlands Cancer Institute in Amsterdam, The Netherlands</p>
-        </div>
-      </div>
-    </div>
+  <div style="margin: 20px 0;">
+    <h4 style="color: #2d3748; font-size: 18px; font-weight: 600; margin: 0 0 12px 0; padding-bottom: 4px; border-bottom: 1px solid rgba(51, 122, 183, 0.2);">Scientific Training and Awards</h4>
+    <p><strong style="color: #337ab7;">2025 - Present:</strong> Group leader at Nanjing University<br>
+    <em style="color: #666; font-size: 13px;">Recipient of Nanjing University Research Program for International Scholars in 2025</em></p>
+    <p><strong style="color: #337ab7;">2019 - 2024:</strong> Postdoc in the group of Wouter de Laat at Hubrecht Institute in Utrecht, The Netherlands</p>
+    <p><strong style="color: #337ab7;">2013 - 2019:</strong> PhD in the group of Reuven Agami at Netherlands Cancer Institute in Amsterdam, The Netherlands</p>
+  </div>
     
-    <div class="leader-contact">
+  <div class="leader-contact">
       <p><strong>Email:</strong> r.han@nju.edu.cn</p>
-      <p><strong>Office:</strong> Room 302, Institute of Modern Biology</p>
-    </div>
+  </div>
   </div>
 </div>
 

@@ -240,7 +240,7 @@
 
 /* Scientific Training and Awards Section */
 .leader-training {
-    margin: 24px 0;
+    margin: 20px 0;
     padding: 0;
 }
 
@@ -248,52 +248,34 @@
     color: #2d3748;
     font-size: 18px;
     font-weight: 600;
-    margin: 0 0 16px 0;
-    padding-bottom: 6px;
+    margin: 0 0 12px 0;
+    padding-bottom: 4px;
     border-bottom: 1px solid rgba(51, 122, 183, 0.2);
 }
 
 .training-list {
     margin: 0;
-    padding: 0;
+    padding-left: 20px;
+    list-style: none;
 }
 
-.training-item {
-    margin-bottom: 14px;
-    padding-bottom: 12px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
-}
-
-.training-item:last-child {
-    border-bottom: none;
-    padding-bottom: 0;
-}
-
-.training-year {
-    font-size: 13px;
-    font-weight: 600;
-    color: #337ab7;
-    margin: 0 0 3px 0;
-}
-
-.training-item.current .training-year {
-    color: #ff9800;
-}
-
-.training-position {
-    font-size: 14px;
-    font-weight: 500;
+.training-list li {
+    margin-bottom: 10px;
+    line-height: 1.5;
     color: #2d3748;
-    margin: 0 0 3px 0;
-    line-height: 1.4;
+    font-size: 14px;
 }
 
-.training-award {
-    font-size: 13px;
+.training-list li strong {
+    color: #337ab7;
+    font-weight: 600;
+}
+
+.training-list li em {
     color: #666;
-    margin: 0;
-    line-height: 1.3;
-    font-style: italic;
+    font-size: 13px;
+    display: block;
+    margin-top: 2px;
 }
 
 /* GROUP MEMBERS 样式 */
@@ -605,7 +587,7 @@
     }
     
     .leader-training {
-        margin: 18px 0;
+        margin: 16px 0;
         padding: 0;
     }
     
@@ -613,9 +595,9 @@
         font-size: 16px;
     }
     
-    .training-item {
-        padding-bottom: 10px;
-        margin-bottom: 12px;
+    .training-list li {
+        font-size: 13px;
+        margin-bottom: 8px;
     }
     
     .group-members {
@@ -661,7 +643,7 @@
     }
     
     .leader-training {
-        margin: 16px 0;
+        margin: 14px 0;
         padding: 0;
     }
     
@@ -669,21 +651,17 @@
         font-size: 15px;
     }
     
-    .training-item {
-        padding-bottom: 8px;
-        margin-bottom: 10px;
+    .training-list {
+        padding-left: 16px;
     }
     
-    .training-year {
+    .training-list li {
         font-size: 12px;
+        margin-bottom: 6px;
     }
     
-    .training-position {
-        font-size: 13px;
-    }
-    
-    .training-award {
-        font-size: 12px;
+    .training-list li em {
+        font-size: 11px;
     }
     
     .group-members {
