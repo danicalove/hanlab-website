@@ -19,21 +19,25 @@ Boris Slobodin#*, **Ruiqi Han#**, Vittorio Calderone, Joachim AF Oude Vrielink,
 Gozde Korkmaz#, Rui Lopes#, Alejandro P Ugalde, Ekaterina Nevedomskaya, **Ruiqi Han**, Ksenia Myacheva, Wilbert Zwart, Ran Elkon, Reuven Agami*. Functional genetic screens for enhancer elements in the human genome using CRISPR-Cas9. Nature Biotechnology 34(2): 192-198. (2016)
  
 
-**Niels J. Rinzema, Konstantinos Sofiadis, Sjoerd J. D. Tjalsma, Marjon J. A. M. Verstegen, Yuva Oz, Christian Valdes-Quezada, Anna-Karina Felder, Teodora Filipovska, Stefan van der Elst, Zaria de Andrade dos Ramos, Ruiqi Han, Peter H. L. Krijger, Wouter de Laat*. Building regulatory landscapes reveals that an enhancer can recruit cohesin to create contact domains, engage CTCF sites and activate distant genes. Nature Structural & Molecular Biology 29(6): 563-574. (2022)**
+Niels J. Rinzema, Konstantinos Sofiadis, Sjoerd J. D. Tjalsma, Marjon J. A. M. Verstegen, Yuva Oz, Christian Valdes-Quezada, Anna-Karina Felder, Teodora Filipovska, Stefan van der Elst, Zaria de Andrade dos Ramos, **Ruiqi Han**, Peter H. L. Krijger, Wouter de Laat*. Building regulatory landscapes reveals that an enhancer can recruit cohesin to create contact domains, engage CTCF sites and activate distant genes. Nature Structural & Molecular Biology 29(6): 563-574. (2022)
 
 
-**Li Li, Alejandro P Ugalde, Colinda LGJ Scheele, Sebastian M Dieter, Remco Nagel, Jin Ma, Abhijeet Pataskar, Gozde Korkmaz, Ran Elkon, Miao-Ping Chien, Li You, Pin-Rui Su, Onno B Bleijerveld, Maarten Altelaar, Lyubomir Momchev, Zohar Manber, Ruiqi Han, Pieter C Van Breugel, Rui Lopes, Peter Ten Dijke, Jacco van Rheenen, Reuven Agami*. A comprehensive enhancer screen identifies TRAM2 as a key and novel mediator of YAP oncogenesis. Genome Biology 22(1): 1-28. (2021)**
+Li Li, Alejandro P Ugalde, Colinda LGJ Scheele, Sebastian M Dieter, Remco Nagel, Jin Ma, Abhijeet Pataskar, Gozde Korkmaz, Ran Elkon, Miao-Ping Chien, Li You, Pin-Rui Su, Onno B Bleijerveld, Maarten Altelaar, Lyubomir Momchev, Zohar Manber, **Ruiqi Han**, Pieter C Van Breugel, Rui Lopes, Peter Ten Dijke, Jacco van Rheenen, Reuven Agami*. A comprehensive enhancer screen identifies TRAM2 as a key and novel mediator of YAP oncogenesis. Genome Biology 22(1): 1-28. (2021)
  
 
-**Boris Slobodin, Anat Bahat, Urmila Sehrawat, Shirly Becker-Herman, Binyamin Zuckerman, Amanda N. Weiss, Ruiqi Han, Ran Elkon, Reuven Agami, Igor Ulitsky, Idit Shachar, Rivka Dikstein*. Transcription Dynamics Regulate Poly(A) Tails and Expression of the RNA Degradation Machinery to Balance mRNA Levels. Molecular Cell 78(3):434-444. (2020)**
- 
-**Li Li, Pieter C van Breugel, Fabricio Loayza-Puch, Alejandro P Ugalde, Gozde Korkmaz, Naama Messika-Gold, Ruiqi Han, Rui Lopes, Eric P Barbera, Hans Teunissen, Elzo de Wit, Ricardo J Soares, Boye S Nielsen, Kim Holmstrøm, Dannys J Martínez-Herrera, Maite Huarte, Annita Louloupi, Jarno Drost, Ran Elkon, Reuven Agami*. LncRNA-OIS1 regulates DPP4 activation to modulate senescence induced by RAS. Nucleic Acids Research gky087, https://doi.org/10.1093/nar/gky087. (2018)**
- 
-**Jianhui Sun, Remco Nagel, Esther A Zaal, Alejandro Piñeiro Ugalde, Ruiqi Han, Natalie Proost, Ji-Ying Song, Abhijeet Pataskar, Artur Burylo, Haigen Fu, Gerrit J Poelarends, Marieke van de Ven, Olaf van Tellingen, Celia R Berkers & Reuven Agami*. SLC1A3 contributes to L-asparaginase resistance in solid tumors. The EMBO Journal 38(21). (2019)**
- 
-**Ruiqi Han, Boris Slobodin, Reuven Agami. The Methylated way to translation. Oncotarget 8(55): 93313-14. (2017)**
- 
-**Florie Borel, Ruiqi Han, Allerdien Visser, Harald Petry, Sander J.H. van Deventer, Peter L.M. Jansen, Pavlina Konstantinova, with collaboration of the Réseau Centre de Ressources Biologiques Foie (French Liver Biobanks Network), France. Adenosine triphosphate‐binding cassette transporter genes up‐regulation in untreated hepatocellular carcinoma is mediated by cellular microRNAs. Hepatology 55: 821–832. doi:10.1002/hep.24682. (2012)**
+Boris Slobodin, Anat Bahat, Urmila Sehrawat, Shirly Becker-Herman, Binyamin Zuckerman, Amanda N. Weiss, **Ruiqi Han**, Ran Elkon, Reuven Agami, Igor Ulitsky, Idit Shachar, Rivka Dikstein*. Transcription Dynamics Regulate Poly(A) Tails and Expression of the RNA Degradation Machinery to Balance mRNA Levels. Molecular Cell 78(3):434-444. (2020)
+
+
+Li Li, Pieter C van Breugel, Fabricio Loayza-Puch, Alejandro P Ugalde, Gozde Korkmaz, Naama Messika-Gold, **Ruiqi Han**, Rui Lopes, Eric P Barbera, Hans Teunissen, Elzo de Wit, Ricardo J Soares, Boye S Nielsen, Kim Holmstrøm, Dannys J Martínez-Herrera, Maite Huarte, Annita Louloupi, Jarno Drost, Ran Elkon, Reuven Agami*. LncRNA-OIS1 regulates DPP4 activation to modulate senescence induced by RAS. Nucleic Acids Research gky087, https://doi.org/10.1093/nar/gky087. (2018)
+
+
+Jianhui Sun, Remco Nagel, Esther A Zaal, Alejandro Piñeiro Ugalde, **Ruiqi Han**, Natalie Proost, Ji-Ying Song, Abhijeet Pataskar, Artur Burylo, Haigen Fu, Gerrit J Poelarends, Marieke van de Ven, Olaf van Tellingen, Celia R Berkers & Reuven Agami*. SLC1A3 contributes to L-asparaginase resistance in solid tumors. The EMBO Journal 38(21). (2019)
+
+
+**Ruiqi Han**, Boris Slobodin, Reuven Agami. The Methylated way to translation. Oncotarget 8(55): 93313-14. (2017)
+
+
+Florie Borel, **Ruiqi Han**, Allerdien Visser, Harald Petry, Sander J.H. van Deventer, Peter L.M. Jansen, Pavlina Konstantinova, with collaboration of the Réseau Centre de Ressources Biologiques Foie (French Liver Biobanks Network), France. Adenosine triphosphate‐binding cassette transporter genes up‐regulation in untreated hepatocellular carcinoma is mediated by cellular microRNAs. Hepatology 55: 821–832. doi:10.1002/hep.24682. (2012)
 
 #co-first author; *corresponding author
 
