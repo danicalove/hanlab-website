@@ -7,16 +7,16 @@ layout = "page"
 
 
 ## Recent Publications
-**Ruiqi Han#*, Yike Huang#, Michelle J. Robers#, Mikhail Magnitov#, Iwan Vaandrager, Amin Allahyar, Marjon J.A.M. Verstegen, Kexin Zhang, Elzo de Wit, Wouter de Laat*, Peter H. L. Krijger. Characterization of induced cohesin loop extrusion trajectories in living cells. Nature Genetics, https://doi.org/10.1038/s41588-025-02358-0 (2025)**
+**Ruiqi Han#**, Yike Huang#, Michelle J. Robers#, Mikhail Magnitov#, Iwan Vaandrager, Amin Allahyar, Marjon J.A.M. Verstegen, Kexin Zhang, Elzo de Wit, Wouter de Laat*, Peter H. L. Krijger. Characterization of induced cohesin loop extrusion trajectories in living cells. Nature Genetics, https://doi.org/10.1038/s41588-025-02358-0 (2025)
 
 
-**Boris Slobodin#*, Ruiqi Han#, Vittorio Calderone, Joachim AF Oude Vrielink, Fabricio Loayza-Puch, Ran Elkon, Reuven Agami*. Transcription impacts the efficiency of mRNA translation via co-transcriptional N6-adenosine methylation. Cell 169(2): 326-337(2017)**
+Boris Slobodin#*, **Ruiqi Han#**, Vittorio Calderone, Joachim AF Oude Vrielink, Fabricio Loayza-Puch, Ran Elkon, Reuven Agami*. Transcription impacts the efficiency of mRNA translation via co-transcriptional N6-adenosine methylation. Cell 169(2): 326-337(2017)
 
 
-**Ruiqi Han#, Li Li#, Alejandro Piñeiro Ugalde, Arieh Tal, Zohar Manber, Eric Pinto Barbera, Veronica Della Chiara, Ran Elkon, Reuven Agami. Functional CRISPR screen identifies AP1-associated enhancer regulating FOXF1 to modulate oncogene-induced senescence. Genome Biology 19: 118. (2018)**    
+**Ruiqi Han#**, Li Li#, Alejandro Piñeiro Ugalde, Arieh Tal, Zohar Manber, Eric Pinto Barbera, Veronica Della Chiara, Ran Elkon, Reuven Agami. Functional CRISPR screen identifies AP1-associated enhancer regulating FOXF1 to modulate oncogene-induced senescence. Genome Biology 19: 118. (2018)
 
 
-**Gozde Korkmaz#, Rui Lopes#, Alejandro P Ugalde, Ekaterina Nevedomskaya, Ruiqi Han, Ksenia Myacheva, Wilbert Zwart, Ran Elkon, Reuven Agami*. Functional genetic screens for enhancer elements in the human genome using CRISPR-Cas9. Nature Biotechnology 34(2): 192-198. (2016)**
+Gozde Korkmaz#, Rui Lopes#, Alejandro P Ugalde, Ekaterina Nevedomskaya, **Ruiqi Han**, Ksenia Myacheva, Wilbert Zwart, Ran Elkon, Reuven Agami*. Functional genetic screens for enhancer elements in the human genome using CRISPR-Cas9. Nature Biotechnology 34(2): 192-198. (2016)
  
 
 **Niels J. Rinzema, Konstantinos Sofiadis, Sjoerd J. D. Tjalsma, Marjon J. A. M. Verstegen, Yuva Oz, Christian Valdes-Quezada, Anna-Karina Felder, Teodora Filipovska, Stefan van der Elst, Zaria de Andrade dos Ramos, Ruiqi Han, Peter H. L. Krijger, Wouter de Laat*. Building regulatory landscapes reveals that an enhancer can recruit cohesin to create contact domains, engage CTCF sites and activate distant genes. Nature Structural & Molecular Biology 29(6): 563-574. (2022)**
