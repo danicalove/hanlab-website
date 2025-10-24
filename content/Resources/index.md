@@ -8,13 +8,13 @@ description = "实验室资源与设备 | Laboratory Resources and Equipment"
 +++
 
 ## 🧬 实验设备 | Laboratory Equipment
-**CKX53+fluorescence** - 显微镜奥林巴斯
-**Tanon4160SF** - 天能全自动化学发光图像分析系统
-**covaris** - 非接触式超声破碎系统
-**BD Biosciences LSRFortessa** - 流式细胞分析仪
-**BD Biosciences FACSAria III*** - 流式细胞分选仪
-**Zesis LSM900** - 激光共聚焦显微镜
-**Applied Biosystems QuantStudio 5** - 实时荧光定量PCR仪
+- **CKX53+fluorescence** - 显微镜奥林巴斯
+- **Tanon4160SF** - 天能全自动化学发光图像分析系统
+- **covaris** - 非接触式超声破碎系统
+- **BD Biosciences LSRFortessa** - 流式细胞分析仪
+- **BD Biosciences FACSAria III*** - 流式细胞分选仪
+- **Zesis LSM900** - 激光共聚焦显微镜
+- **Applied Biosystems QuantStudio 5** - 实时荧光定量PCR仪
 <!-- ### 分子生物学设备 | Molecular Biology Equipment
 
 **DNA/RNA分析设备**
