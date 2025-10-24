@@ -61,7 +61,7 @@ layout = "page"
 
   <div class="member-card">
     <div class="member-photo">
-      <img src="/img/team/student1.jpg" alt="张盐盐" class="member-avatar">
+      <img src="/img/team/student1.jpg" alt="陈天悦" class="member-avatar">
     </div>
     <h4>陈天悦</h4>
     <p class="member-position">Master Student</p>
@@ -69,7 +69,7 @@ layout = "page"
 
   <div class="member-card">
     <div class="member-photo">
-      <img src="/img/team/student2.jpg" alt="陈天悦" class="member-avatar">
+      <img src="/img/team/student2.jpg" alt="张盐盐" class="member-avatar">
     </div>
     <h4>张盐盐</h4>
     <p class="member-position">Master Student</p>
