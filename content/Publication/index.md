@@ -7,7 +7,7 @@ layout = "page"
 
 
 ## Recent Publications
-**Ruiqi Han#**, Yike Huang#, Michelle J. Robers#, Mikhail Magnitov#, Iwan Vaandrager, Amin Allahyar, Marjon J.A.M. Verstegen, Kexin Zhang, Elzo de Wit, Wouter de Laat*, Peter H. L. Krijger. Characterization of induced cohesin loop extrusion trajectories in living cells. Nature Genetics, https://doi.org/10.1038/s41588-025-02358-0 (2025)
+**Ruiqi Han#\***, Yike Huang#, Michelle J. Robers#, Mikhail Magnitov#, Iwan Vaandrager, Amin Allahyar, Marjon J.A.M. Verstegen, Kexin Zhang, Elzo de Wit, Wouter de Laat*, Peter H. L. Krijger. Characterization of induced cohesin loop extrusion trajectories in living cells. Nature Genetics, https://doi.org/10.1038/s41588-025-02358-0 (2025)
 
 
 Boris Slobodin#*, **Ruiqi Han#**, Vittorio Calderone, Joachim AF Oude Vrielink, Fabricio Loayza-Puch, Ran Elkon, Reuven Agami*. Transcription impacts the efficiency of mRNA translation via co-transcriptional N6-adenosine methylation. Cell 169(2): 326-337(2017)
@@ -114,8 +114,4 @@ DOI: [10.1016/j.devcel.2021.05.023](https://doi.org/10.1016/j.devcel.2021.05.023
 [PubMed](https://pubmed.ncbi.nlm.nih.gov/01234567/) -->
 
 
-*实验室发表文章列表持续更新中... / Publication list is continuously updated...*
-
-**\* 通讯作者 / Corresponding author**  
-如需获取全文PDF或有合作意向，请联系韩老师：r.han@nju.edu.cn  
 *For full-text PDFs or collaboration inquiries, please contact Dr. Han: r.han@nju.edu.cn*

@@ -47,7 +47,6 @@ description = "实验室资源与设备 | Laboratory Resources and Equipment"
 
 <!-- ### 计算设备 | Computing Equipment -->
 
-**高性能计算集群**
 - **Dell Inc. PowerEdge T550** (处理器：Intel® Xeon® Gold 6330 × 112)
 <!-- - **存储系统**: 100TB 高速存储阵列
 - **网络**: 10Gb 以太网连接 -->
