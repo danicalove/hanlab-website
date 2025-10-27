@@ -27,7 +27,6 @@ home = ["HTML", "RSS", "JSON"]
   SEOTitle = "韩瑞琦实验室 | Ruiqi Han Lab"
   description = "南京大学现代生物研究院韩瑞琦实验室"
   keyword = "三维基因组调控与细胞功能"
-  slogan = "路在脚下，心向远方"
   upstreamAttribution = true
 
   image_404 = "img/404-bg.jpg"
