@@ -13,4 +13,4 @@ layout = "page"
 
 **联系方式 | Contact:**  
 📧 r.han@nju.edu.cn  
-📍 南京大学现代生物研究院 | Institute of Modern Biology, Nanjing University -->
+📍 南京大学现代生物研究院 | Institute of Modern Biology, Nanjing University
