@@ -204,13 +204,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    position: relative;
 }
 
 .member-card .member-photo {
     width: 100px;
     height: 100px;
-    margin: 0 auto 16px auto;
+    margin: 0 auto 20px auto;
     display: block;
+    flex-shrink: 0;
+    position: relative;
 }
 
 .member-card .member-avatar {
@@ -219,6 +222,7 @@
     border-radius: 50%;
     object-fit: cover;
     display: block;
+    position: relative;
 }
 
 .member-card h4 {
@@ -229,6 +233,8 @@
     font-weight: 600;
     text-align: center;
     line-height: 1.4;
+    position: relative;
+    z-index: 1;
 }
 
 .member-position {
@@ -239,6 +245,8 @@
     padding: 0;
     text-align: center;
     line-height: 1.4;
+    position: relative;
+    z-index: 1;
 }
 
 /* 团队成员卡片 */
@@ -464,7 +472,8 @@
     .member-card .member-photo {
         width: 80px;
         height: 80px;
-        margin: 0 auto 12px auto;
+        margin: 0 auto 16px auto;
+        flex-shrink: 0;
     }
 
     .member-card h4 {
@@ -472,12 +481,16 @@
         margin: 0 0 6px 0;
         padding: 0;
         line-height: 1.4;
+        position: relative;
+        z-index: 1;
     }
 
     .member-position {
         font-size: 13px;
         margin: 0;
         padding: 0;
+        position: relative;
+        z-index: 1;
     }
 }
 
@@ -521,7 +534,8 @@
     .member-card .member-photo {
         width: 70px;
         height: 70px;
-        margin: 0 auto 10px auto;
+        margin: 0 auto 14px auto;
+        flex-shrink: 0;
     }
 
     .member-card h4 {
@@ -529,6 +543,8 @@
         margin: 0 0 6px 0;
         padding: 0;
         line-height: 1.4;
+        position: relative;
+        z-index: 1;
     }
 
     .member-position {
@@ -536,5 +552,7 @@
         margin: 0;
         padding: 0;
         line-height: 1.4;
+        position: relative;
+        z-index: 1;
     }
 }
