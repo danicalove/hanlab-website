@@ -7,7 +7,7 @@ layout = "page"
 description = "实验室资源与设备 | Laboratory Resources and Equipment"
 +++
 
-## 🧬 实验设备 | Laboratory Equipment
+## 🧬 Laboratory Equipment
 - **CKX53+fluorescence** - 显微镜奥林巴斯
 - **Tanon4160SF** - 天能全自动化学发光图像分析系统
 - **covaris** - 非接触式超声破碎系统
@@ -43,7 +43,7 @@ description = "实验室资源与设备 | Laboratory Resources and Equipment"
 
 ---
 
-## 💻 生物信息学资源 | Bioinformatics Resources
+## 💻 Bioinformatics Resources
 
 <!-- ### 计算设备 | Computing Equipment -->
 
