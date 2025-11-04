@@ -28,3 +28,8 @@ layout = "page"
 {{< gallery dir="/img/events/2025-09-csh-conference/" />}}
 - **Happy Teachers' Day**
 {{< gallery dir="/img/events/2025-09-teacher/" />}}
+
+
+**2025 November**  
+- **Happy Halloween**
+{{< gallery dir="/img/events/2025-11-halloween/" />}}
