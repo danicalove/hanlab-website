@@ -74,6 +74,14 @@ layout = "page"
     <h4>张盐盐</h4>
     <p class="member-position">Master Student</p>
   </div>
+
+  <div class="member-card">
+    <div class="member-photo">
+      <img src="/img/team/student3.jpg" alt="宋凌宇" class="member-avatar">
+    </div>
+    <h4>宋凌宇</h4>
+    <p class="member-position">Master Student</p>
+  </div>
   
 </div>
 
