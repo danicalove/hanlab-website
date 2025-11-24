@@ -39,7 +39,7 @@ layout = "page"
     <div class="member-photo">
       <img src="/img/team/manager1.jpg" alt="李杰" class="member-avatar">
     </div>
-    <h4>李杰</h4>
+    <h4>Jie Li（李杰）</h4>
     <p class="member-position">Lab Manager</p>
   </div>
 
@@ -47,7 +47,7 @@ layout = "page"
     <div class="member-photo">
       <img src="/img/team/assistant1.jpg" alt="孙文亚" class="member-avatar">
     </div>
-    <h4>孙文亚</h4>
+    <h4>Wenya Sun（孙文亚）</h4>
     <p class="member-position">Research Assistant</p>
   </div>
 
@@ -55,7 +55,7 @@ layout = "page"
     <div class="member-photo">
       <img src="/img/team/assistant2.jpg" alt="陈子浩" class="member-avatar">
     </div>
-    <h4>陈子浩</h4>
+    <h4>Zihao Chen（陈子浩）</h4>
     <p class="member-position">Research Assistant</p>
   </div>
 
@@ -63,7 +63,7 @@ layout = "page"
     <div class="member-photo">
       <img src="/img/team/student1.jpg" alt="陈天悦" class="member-avatar">
     </div>
-    <h4>陈天悦</h4>
+    <h4>Tianyue Chen（陈天悦）</h4>
     <p class="member-position">Master Student</p>
   </div>
 
@@ -71,7 +71,7 @@ layout = "page"
     <div class="member-photo">
       <img src="/img/team/student2.jpg" alt="张盐盐" class="member-avatar">
     </div>
-    <h4>张盐盐</h4>
+    <h4>Yanyan Zhang（张盐盐）</h4>
     <p class="member-position">Master Student</p>
   </div>
 
@@ -79,7 +79,7 @@ layout = "page"
     <div class="member-photo">
       <img src="/img/team/student3.jpg" alt="宋凌宇" class="member-avatar">
     </div>
-    <h4>宋凌宇</h4>
+    <h4>Lingyu Song（宋凌宇）</h4>
     <p class="member-position">Master Student</p>
   </div>
   
