@@ -45,10 +45,26 @@ layout = "page"
 
   <div class="member-card">
     <div class="member-photo">
-      <img src="/img/team/assistant1.jpg" alt="孙文亚" class="member-avatar">
+      <img src="/img/team/student1.jpg" alt="陈天悦" class="member-avatar">
     </div>
-    <h4>Wenya Sun（孙文亚）</h4>
-    <p class="member-position">Research Assistant</p>
+    <h4>Tianyue Chen（陈天悦）</h4>
+    <p class="member-position">Master Student</p>
+  </div>
+
+  <div class="member-card">
+      <div class="member-photo">
+        <img src="/img/team/student2.jpg" alt="张盐盐" class="member-avatar">
+      </div>
+      <h4>Yanyan Zhang（张盐盐）</h4>
+      <p class="member-position">Master Student</p>
+  </div>
+
+  <div class="member-card">
+      <div class="member-photo">
+        <img src="/img/team/assistant1.jpg" alt="孙文亚" class="member-avatar">
+      </div>
+      <h4>Wenya Sun（孙文亚）</h4>
+      <p class="member-position">Research Assistant</p>
   </div>
 
   <div class="member-card">
@@ -61,27 +77,34 @@ layout = "page"
 
   <div class="member-card">
     <div class="member-photo">
-      <img src="/img/team/student1.jpg" alt="陈天悦" class="member-avatar">
-    </div>
-    <h4>Tianyue Chen（陈天悦）</h4>
-    <p class="member-position">Master Student</p>
-  </div>
-
-  <div class="member-card">
-    <div class="member-photo">
-      <img src="/img/team/student2.jpg" alt="张盐盐" class="member-avatar">
-    </div>
-    <h4>Yanyan Zhang（张盐盐）</h4>
-    <p class="member-position">Master Student</p>
-  </div>
-
-  <div class="member-card">
-    <div class="member-photo">
       <img src="/img/team/student3.jpg" alt="宋凌宇" class="member-avatar">
     </div>
     <h4>Lingyu Song（宋凌宇）</h4>
     <p class="member-position">Master Student</p>
   </div>
+
+  <div class="member-card">
+      <div class="member-photo">
+        <img src="/img/team/assistant3.jpg" alt="陈亦夏" class="member-avatar">
+      </div>
+      <h4>Yixia Chen（陈亦夏）</h4>
+      <p class="member-position">Research Assistant</p>
+  </div>
+
+  <div class="member-card">
+      <div class="member-photo">
+        <img src="/img/team/assistant4.jpg" alt="刘佳" class="member-avatar">
+      </div>
+      <h4>Jia Liu（刘佳）</h4>
+      <p class="member-position">Research Assistant</p>
+  </div>
+  
+  
+
+ 
+
+  
+
   
 </div>
 
