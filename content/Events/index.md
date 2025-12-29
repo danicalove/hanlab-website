@@ -6,6 +6,9 @@ layout = "page"
 +++
 
 ## Laboratory Events
+**2025 December**  
+- **Merry Christmas**
+{{< gallery dir="/img/events/2025-12-christmas/" />}}
 
 **2025 November**  
 - **Happy Halloween**
