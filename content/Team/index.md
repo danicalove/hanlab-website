@@ -98,6 +98,22 @@ layout = "page"
       <h4>Jia Liu（刘佳）</h4>
       <p class="member-position">Research Assistant</p>
   </div>
+
+  <div class="member-card">
+      <div class="member-photo">
+        <img src="/img/team/student4.jpg" alt="季诗云" class="member-avatar">
+      </div>
+      <h4>Shiyun Ji（季诗云）</h4>
+      <p class="member-position">Master Student</p>
+  </div>
+
+  <div class="member-card">
+      <div class="member-photo">
+        <img src="/img/team/assistant5.jpg" alt="潘冬蓁" class="member-avatar">
+      </div>
+      <h4>Dongzhen Pan（潘冬蓁）</h4>
+      <p class="member-position">Research Assistant</p>
+  </div>
   
   
 
@@ -109,6 +125,8 @@ layout = "page"
 </div>
 
 ---
+
+## Alumni
 
 ## Join Our Team
 
