@@ -53,14 +53,6 @@ layout = "page"
 
   <div class="member-card">
       <div class="member-photo">
-        <img src="/img/team/student2.jpg" alt="张盐盐" class="member-avatar">
-      </div>
-      <h4>Yanyan Zhang（张盐盐）</h4>
-      <p class="member-position">Master Student</p>
-  </div>
-
-  <div class="member-card">
-      <div class="member-photo">
         <img src="/img/team/assistant1.jpg" alt="孙文亚" class="member-avatar">
       </div>
       <h4>Wenya Sun（孙文亚）</h4>
@@ -114,13 +106,6 @@ layout = "page"
       <h4>Dongzhen Pan（潘冬蓁）</h4>
       <p class="member-position">Research Assistant</p>
   </div>
-  
-  
-
- 
-
-  
-
   
 </div>
 
