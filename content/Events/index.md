@@ -6,6 +6,17 @@ layout = "page"
 +++
 
 ## Laboratory Events
+**2026 January**
+- **Housewarming joy~**
+{{< gallery dir="/img/events/2026-01-housewarming/" />}}
+
+- **Happy Birthday~**
+{{< gallery dir="/img/events/2026-01-birthday/" />}}
+
+- **Annual meeting**
+{{< gallery dir="/img/events/2026-01-annual_meeting/" />}}
+
+
 **2025 December**  
 - **Merry Christmas**
 {{< gallery dir="/img/events/2025-12-christmas/" />}}
