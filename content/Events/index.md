@@ -6,6 +6,13 @@ layout = "page"
 +++
 
 ## Laboratory Events
+**2026 February**
+- **LOVE 218**
+{{< gallery dir="/img/events/2026-02-love/" />}}
+
+- **Happy Birthday~  Mr. Han**
+{{< gallery dir="/img/events/2026-02-birthday/" />}}
+
 **2026 January**
 - **Housewarming joy~**
 {{< gallery dir="/img/events/2026-01-housewarming/" />}}
