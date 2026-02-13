@@ -32,10 +32,10 @@ layout = "page"
 - **Happy Halloween**
 {{< gallery dir="/img/events/2025-11-halloween/" />}}
 
+**2025 September** 
 - **Happy Teachers' Day**
 {{< gallery dir="/img/events/2025-09-teacher/" />}}
 
-**2025 September** 
 - **All lab members participated the Cold Spring Harbor Asia-3D genome conference in Suzhou**
 {{< gallery dir="/img/events/2025-09-csh-conference/" />}}
 
