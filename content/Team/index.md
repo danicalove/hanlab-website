@@ -104,21 +104,9 @@ layout = "page"
 ---
 
 ## Alumni
-<div class="group-members">
-  <div class="member-card">
-      <!-- <div class="member-photo">
-        <img src="/img/team/assistant2.jpg" alt="陈子浩" class="member-avatar">
-      </div> -->
-      <h4>Zihao Chen（陈子浩）</h4>
-      <!-- <p class="member-position">Research Assistant</p> -->
-    </div>
-  <div class="member-card">
-      <!-- <div class="member-photo">
-        <img src="/img/team/assistant2.jpg" alt="张盐盐" class="member-avatar">
-      </div> -->
-      <h4>Yanyan Zhang（张盐盐）</h4>
-      <!-- <p class="member-position">Research Assistant</p> -->
-    </div>
+<div class="alumni-list">
+  <p>Zihao Chen（陈子浩）</p>
+  <p>Yanyan Zhang（张盐盐）</p>
 </div>
 
 ## Join Our Team
