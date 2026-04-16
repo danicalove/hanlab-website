@@ -6,6 +6,10 @@ layout = "page"
 +++
 
 ## Laboratory Events
+**2026 April**
+- **Happy Birthday**
+{{< gallery dir="/img/events/2026-04-birthday/" />}}
+
 **2026 February**
 - **LOVE 218**
 {{< gallery dir="/img/events/2026-02-love/" />}}
