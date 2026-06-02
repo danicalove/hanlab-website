@@ -6,11 +6,22 @@ layout = "page"
 +++
 
 ## Laboratory Events
+**2026 June**
+- **Happy Birthday~**
+{{< gallery dir="/img/events/2026-06-birthday/" />}}
+
+**2026 May**
+- **Spring outing~**
+{{< gallery dir="/img/events/2026-05-outing/" />}}
+
+- **Happy Birthday~**
+{{< gallery dir="/img/events/2026-05-birthday/" />}}
+
 **2026 April**
 - **Happy Birthday**
 {{< gallery dir="/img/events/2026-04-birthday/" />}}
 
-**2026 February**
+**2026 February** 
 - **LOVE 218**
 {{< gallery dir="/img/events/2026-02-love/" />}}
 
