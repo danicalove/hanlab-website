@@ -8,7 +8,7 @@ layout = "page"
 
 ## Recent Publications
 
-**Ruiqi Han**, Michelle J. Robers. Complex 3D genome organization networks revealed by controlled cohesin loading.Nature Genetics57, 2632–2633. https://doi.org/10.1038/s41588-025-02359-z (2025)
+**Ruiqi Han**, Michelle J. Robers. Complex 3D genome organization networks revealed by controlled cohesin loading.Nature Genetics 57, 2632–2633. https://doi.org/10.1038/s41588-025-02359-z (2025)
 
 **Ruiqi Han#\***, Yike Huang#, Michelle J. Robers#, Mikhail Magnitov#, Iwan Vaandrager, Amin Allahyar, Marjon J.A.M. Verstegen, Kexin Zhang, Elzo de Wit, Wouter de Laat*, Peter H. L. Krijger. Characterization of induced cohesin loop extrusion trajectories in living cells. Nature Genetics, https://doi.org/10.1038/s41588-025-02358-0 (2025)
 
