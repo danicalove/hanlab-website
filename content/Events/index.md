@@ -8,6 +8,9 @@ layout = "page"
 ## Laboratory Events
 **2026 June**
 - **Happy Birthday~**
+{{< gallery dir="/img/events/2026-06-birthday-yidan/" />}}
+
+- **Happy Birthday~**
 {{< gallery dir="/img/events/2026-06-birthday/" />}}
 
 **2026 May**
