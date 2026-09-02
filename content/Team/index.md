@@ -107,6 +107,14 @@ layout = "page"
       <p class="member-position">Phd Student</p>
   </div>
 
+  <div class="member-card">
+      <div class="member-photo">
+        <img src="/img/team/assistant6.jpg" alt="王慧" class="member-avatar">
+      </div>
+      <h4>Hui Wang（王慧）</h4>
+      <p class="member-position">Research Assistant</p>
+  </div>
+
   
 </div>
 
