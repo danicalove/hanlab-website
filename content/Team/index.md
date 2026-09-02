@@ -56,7 +56,7 @@ layout = "page"
         <img src="/img/team/assistant1.jpg" alt="孙文亚" class="member-avatar">
       </div>
       <h4>Wenya Sun（孙文亚）</h4>
-      <p class="member-position">Research Assistant</p>
+      <p class="member-position">Phd Student</p>
   </div>
 
   <div class="member-card">
@@ -80,7 +80,7 @@ layout = "page"
         <img src="/img/team/assistant4.jpg" alt="刘佳" class="member-avatar">
       </div>
       <h4>Jia Liu（刘佳）</h4>
-      <p class="member-position">Research Assistant</p>
+      <p class="member-position">Phd Student</p>
   </div>
 
   <div class="member-card">
@@ -96,8 +96,17 @@ layout = "page"
         <img src="/img/team/assistant5.jpg" alt="潘冬蓁" class="member-avatar">
       </div>
       <h4>Dongzhen Pan（潘冬蓁）</h4>
-      <p class="member-position">Research Assistant</p>
+      <p class="member-position">Phd Student</p>
   </div>
+
+  <div class="member-card">
+      <div class="member-photo">
+        <img src="/img/team/phd1.jpg" alt="王悦佳" class="member-avatar">
+      </div>
+      <h4>YueJia Wang（王悦佳）</h4>
+      <p class="member-position">Phd Student</p>
+  </div>
+
   
 </div>
 

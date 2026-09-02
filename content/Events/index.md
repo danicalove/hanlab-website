@@ -6,7 +6,13 @@ layout = "page"
 +++
 
 ## Laboratory Events
-**2026 June**
+
+**2026 Augest**
+- **Happy Birthday~**
+{{< gallery dir="/img/events/2026-08-birthday/" />}}
+
+- **Night climb of Purple Mountain**
+{{< gallery dir="/img/events/2026-08-climbing/" />}}
 
 - **Happy Birthday~**
 {{< gallery dir="/img/events/2026-06-birthday/" />}}
