@@ -6,6 +6,9 @@ layout = "page"
 +++
 
 ## Laboratory Events
+**2026 September**
+- **Happy Teachers' Day**
+{{< gallery dir="/img/events/2026-09-teacher/" />}}
 
 **2026 Augest**
 - **Happy Birthday~**
