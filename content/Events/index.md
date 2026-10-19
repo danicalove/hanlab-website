@@ -7,6 +7,9 @@ layout = "page"
 
 ## Laboratory Events
 **2026 September**
+- **Autumn outing~**
+{{< gallery dir="/img/events/2026-09-autumn/" />}}
+
 - **Happy Teachers' Day**
 {{< gallery dir="/img/events/2026-09-teacher/" />}}
 
