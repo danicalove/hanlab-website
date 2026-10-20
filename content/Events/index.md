@@ -6,6 +6,11 @@ layout = "page"
 +++
 
 ## Laboratory Events
+
+**2026 October**
+- **SMART Genome Symposium From Structure to Function**
+{{< gallery dir="/img/events/2026-10-meeting/" />}}
+
 **2026 September**
 - **Autumn outing~**
 {{< gallery dir="/img/events/2026-09-autumn/" />}}
