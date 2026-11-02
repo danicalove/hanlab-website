@@ -8,6 +8,9 @@ layout = "page"
 ## Laboratory Events
 
 **2026 October**
+- **Happy birthday to Yuejia~**
+{{< gallery dir="/img/events/2026-10-birth/" />}}
+
 - **SMART Genome Symposium From Structure to Function**
 {{< gallery dir="/img/events/2026-10-meeting/" />}}
 
