@@ -115,6 +115,22 @@ layout = "page"
       <p class="member-position">Research Assistant</p>
   </div>
 
+
+  <div class="member-card">
+      <div class="member-photo">
+        <img src="/img/team/cll.jpg" alt="陈玲利" class="member-avatar">
+      </div>
+      <h4>Linli Chen（陈玲利）</h4>
+      <p class="member-position">Master Student</p>
+  </div>
+
+  <div class="member-card">
+      <div class="member-photo">
+        <img src="/img/team/xzk.jpg" alt="徐志锴" class="member-avatar">
+      </div>
+      <h4>Zhikai Xu（徐志锴）</h4>
+      <p class="member-position">Research Assistant</p>
+  </div>
   
 </div>
 
